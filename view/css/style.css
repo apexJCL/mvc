@@ -17,6 +17,7 @@ body{
     padding: 10% 0% 0% 0%;
 }
 
+
 .datadiv{
     position: relative;
     padding: 0% 0% 0% 0%;
@@ -76,6 +77,15 @@ h4{
     background: inherit;
     text-align: center;
     border-color: #3cb0fd;
+    border-width: 2px;
+}
+
+.registroerr{
+    width: 20%;
+    border-radius: 5px;
+    background: inherit;
+    text-align: center;
+    border-color: red;
     border-width: 2px;
 }
 

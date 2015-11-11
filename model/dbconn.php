@@ -1,5 +1,7 @@
 <?php
 
+include 'ChromePhp.php';
+
 class DatabaseConnection {
 
     private $conn;
@@ -14,7 +16,7 @@ class DatabaseConnection {
 
     private function openConn(){
         $this->conn = new PDO('mysql:host=localhost;dbname=libros', $this->user, $this->pass);
-
+        return $this->conn;
     }
 
     private function closeConn(){
@@ -28,10 +30,9 @@ class DatabaseConnection {
         return $result;
     }
 
-    function functions($sentence){
-        $this->openConn();
-        $result = $this->conn->query($sentence);
+    function check_login($sentence){
+        $res = $this->openConn()->query($sentence)->fetchColumn(0);
         $this->closeConn();
-        return $result;
+        return $res;
     }
 }

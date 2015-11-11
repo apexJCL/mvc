@@ -32,13 +32,12 @@ if(isset($_GET['action'])){
             $_SESSION['mail'] = $_POST['mail'];
             $_SESSION['pass'] = $_POST['pass'];
             $index->checkLogin();
-            echo $_SESSION['output'];
             break;
     }
 }
 else
     $index->showStart(); // Show the default webpage
-
+ChromePhp::log(session_status());
 ?>
 </body>
 </html>

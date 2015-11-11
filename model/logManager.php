@@ -8,7 +8,11 @@ class LogManager {
         $conn = new DatabaseConnection();
         $mail = "'".$mail."',";
         $pass = "'".$pass."'";
-        $ans = $conn->functions('SELECT check_login('.$mail.$pass.')');
+        $ans = $conn->check_login('SELECT check_login('.$mail.$pass.')');
+        if($ans){
+            $_SESSION['user'] = $mail;
+        }
+        return $ans;
     }
 
 }

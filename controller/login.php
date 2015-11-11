@@ -4,14 +4,15 @@ require_once 'model/logManager.php';
 
 class LoginController {
 
-    function showLoginScreen(){
+    function showLoginScreen($status){
+        if($status != '')
+            $_GET['status'] = $status;
         include 'view/login.php';
     }
 
     function checkLogin(){
         $logman = new LogManager();
-        $ans = $logman->login($_SESSION['mail'], $_SESSION['pass']);
-        echo $ans;
+        return $logman->login($_SESSION['mail'], $_SESSION['pass']);
     }
 
 }
