@@ -1,7 +1,4 @@
 <?php
-
-include 'ChromePhp.php';
-
 class DatabaseConnection {
 
     private $conn;

@@ -10,7 +10,7 @@ class LogManager {
         $pass = "'".$pass."'";
         $ans = $conn->check_login('SELECT check_login('.$mail.$pass.')');
         if($ans){
-            $_SESSION['user'] = $mail;
+            session_start();
         }
         return $ans;
     }

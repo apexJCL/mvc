@@ -6,17 +6,18 @@ require_once 'controller/login.php';
 class IndexController {
 
     function showStart(){
+        $this->loadTemplate();
         include 'view/welcome.php';
-        ChromePhp::log(session_status());
-        ChromePhp::log('El chido se la come');
     }
 
     function showAutors(){
+        $this->loadTemplate();
         $controller = new AutorController();
         $controller->show();
     }
 
     public function showLoginScreen(){
+        $this->loadTemplate();
         $controller = new LoginController();
         $controller->showLoginScreen('');
     }
@@ -24,10 +25,17 @@ class IndexController {
     public function checkLogin(){
         $controller = new LoginController();
         if($controller->checkLogin()) {
-            session_start();
+            ChromePhp::log("Setting mail");
+            $_SESSION['user'] = $_SESSION['mail'];
+            ChromePhp::log("Done!");
             $this->showStart();
         }
         else
             $controller->showLoginScreen('error');
+    }
+
+    private function loadTemplate(){
+        include "view/default/header.php"; // Show the default Page Header
+        include "view/default/menu.php"; // Show the menu
     }
 }

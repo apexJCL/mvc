@@ -9,8 +9,7 @@
 
 <?php
 
-include "view/default/header.php"; // Show the default Page Header
-include "view/default/menu.php"; // Show the menu
+include 'ChromePhp.php';
 
 require_once 'controller/index_controller.php'; // Load the controller
 
@@ -37,7 +36,6 @@ if(isset($_GET['action'])){
 }
 else
     $index->showStart(); // Show the default webpage
-ChromePhp::log(session_status());
 ?>
 </body>
 </html>
