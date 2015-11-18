@@ -32,6 +32,9 @@ if(isset($_GET['action'])){
             $_SESSION['pass'] = $_POST['pass'];
             $index->checkLogin();
             break;
+        case 'register':
+            $index->showRegister();
+            break;
     }
 }
 else

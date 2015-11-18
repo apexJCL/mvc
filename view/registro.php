@@ -1,6 +1,5 @@
-<!--
 <div id="form" class="regdiv">
-    <form action="model/submit.php" method="post">
+    <form action="" method="post">
         <table class="registro" frame="box" align="center">
             <tr>
                 <td>Nombre</td>
@@ -37,4 +36,3 @@
         </table>
     </form>
 </div>
--->

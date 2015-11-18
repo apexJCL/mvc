@@ -2,6 +2,7 @@
 
 require_once 'controller/autor.php';
 require_once 'controller/login.php';
+require_once 'controller/register.php';
 
 class IndexController {
 
@@ -25,13 +26,17 @@ class IndexController {
     public function checkLogin(){
         $controller = new LoginController();
         if($controller->checkLogin()) {
-            ChromePhp::log("Setting mail");
             $_SESSION['user'] = $_SESSION['mail'];
-            ChromePhp::log("Done!");
             $this->showStart();
         }
         else
             $controller->showLoginScreen('error');
+    }
+
+    public function showRegister(){
+        $this->loadTemplate();
+        $controller = new RegisterController();
+        $controller->showRegister();
     }
 
     private function loadTemplate(){
