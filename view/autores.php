@@ -1,5 +1,5 @@
 <h1>Autores</h1>
-<div class="datadiv">
+<div id="datadiv">
     <table class="datos" align="center">
         <tr>
             <th>Nombre</th>

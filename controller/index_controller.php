@@ -3,6 +3,9 @@
 require_once 'controller/autor.php';
 require_once 'controller/login.php';
 
+if(!isset($_SESSION['username']))
+    require_once 'controller/register.php';
+
 class IndexController {
 
     function showStart(){
@@ -24,14 +27,31 @@ class IndexController {
 
     public function checkLogin(){
         $controller = new LoginController();
-        if($controller->checkLogin()) {
-            ChromePhp::log("Setting mail");
-            $_SESSION['user'] = $_SESSION['mail'];
-            ChromePhp::log("Done!");
+        if($controller->checkLogin())
             $this->showStart();
-        }
-        else
+        else {
+            $this->loadTemplate();
             $controller->showLoginScreen('error');
+        }
+    }
+
+    public function register(){
+        $controller = new RegisterController();
+        if($controller->RegisterUser())
+            $this->showLoginScreen();
+        else
+            $this->showStart();
+    }
+
+    public function showRegister(){
+        $controller = new RegisterController();
+        $this->loadTemplate();
+        $controller->showRegisterScreen();
+    }
+
+    public function logout(){
+        session_destroy();
+        header('Location: index.php');
     }
 
     private function loadTemplate(){

@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -31,6 +34,15 @@ if(isset($_GET['action'])){
             $_SESSION['mail'] = $_POST['mail'];
             $_SESSION['pass'] = $_POST['pass'];
             $index->checkLogin();
+            break;
+        case 'logout':
+            $index->logout();
+            break;
+        case 'register':
+            $index->showRegister();
+            break;
+        case 'checkr':
+            $index->register();
             break;
     }
 }

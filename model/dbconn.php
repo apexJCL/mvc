@@ -20,6 +20,27 @@ class DatabaseConnection {
         $this->conn = null;
     }
 
+    /**
+     * Calls a query and returns the object, also logs to ChromePHP logger
+     *
+     * @param $sentence
+     * @return mixed
+     */
+    function raw($sentence){
+        $this->openConn();
+        $result = $this->conn->query($sentence);
+        ChromePhp::log("Sentence: ".$sentence);
+        return $result;
+    }
+
+    function quote($var){
+        return  "'".$var."'";
+    }
+
+    function quoteConcat($var){
+        return $this->quote($var).',';
+    }
+
     function query($sentence){
         $this->openConn();
         $result = $this->conn->query($sentence)->fetchAll();
@@ -27,7 +48,7 @@ class DatabaseConnection {
         return $result;
     }
 
-    function check_login($sentence){
+    function singleton($sentence){
         $res = $this->openConn()->query($sentence)->fetchColumn(0);
         $this->closeConn();
         return $res;

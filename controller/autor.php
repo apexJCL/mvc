@@ -8,7 +8,6 @@ class AutorController {
         $autores = new Autores();
         $lista_autores = $autores->getAutores();
         include 'view/autores.php';
-        ChromePhp::log(session_status());
     }
 
 }
