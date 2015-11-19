@@ -4,7 +4,7 @@
 
         ChromePhp::log("Menu, session status: ".session_status());
 
-        if(!isset($_SESSION['user']))
+        if(!isset($_SESSION['username']))
             echo '<li><a href="index.php?action=login">Inicia Sesión</a></li><li><a href="index.php?action=register">Regístrate</a></li>';
         else {
             echo '<li><a href="index.php?action=logout">Cerrar Sesión</a></li>';
