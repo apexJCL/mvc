@@ -2,10 +2,9 @@
     <ul id="nav">
         <?php
 
-        ChromePhp::log("Menu Loaded");
-        ChromePhp::log(session_status());
+        ChromePhp::log("Session status: ".session_status());
 
-        if(!isset($_SESSION['user']))
+        if(session_status() == 1)
             echo '<li><a href="index.php?action=login">Inicia Sesión</a></li><li><a href="index.php?action=register">Regístrate</a></li>';
         else
             echo '<li><a href="index.php?action=login">Cerrar Sesión</a></li>';
