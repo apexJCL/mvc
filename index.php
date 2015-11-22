@@ -44,6 +44,9 @@ if(isset($_GET['action'])){
         case 'checkr':
             $index->register();
             break;
+        case 'search':
+            $index->search();
+            break;
     }
 }
 else

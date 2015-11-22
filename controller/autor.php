@@ -7,7 +7,8 @@ class AutorController {
     function show(){
         $autores = new Autores();
         $lista_autores = $autores->getAutores();
-        include 'view/autores.php';
+        include "view/autores/search_menu.php";
+        include 'view/autores/autores.php';
     }
 
 }
