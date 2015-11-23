@@ -49,8 +49,12 @@ if(isset($_GET['action'])){
             break;
     }
 }
-else
-    $index->showStart(); // Show the default webpage
+else {
+    if(isset($_GET['autor']))
+        $index->showAutor();
+    else
+        $index->showStart(); // Show the default webpage
+}
 ?>
 </body>
 </html>

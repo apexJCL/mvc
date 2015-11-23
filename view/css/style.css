@@ -32,6 +32,9 @@ body{
     padding: 5% 0% 0% 0%;
 }
 
+.autor table {
+    border: #3cb0fd;
+}
 
 .datadiv{
     position: relative;
@@ -159,6 +162,10 @@ li{
 .searchlink{
     text-decoration: none;
     margin: 0% 0% 0% 5%;
+}
+
+.image {
+    width: 50%;
 }
 
 #menu li a{

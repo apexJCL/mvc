@@ -14,6 +14,10 @@ class IndexController {
         include 'view/welcome.php';
     }
 
+    function showAutor(){
+        $this->showAutors();
+    }
+
     function showAutors(){
         $this->loadTemplate();
         $controller = new AutorController();
