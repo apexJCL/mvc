@@ -54,6 +54,13 @@ table#autor tr td #surname {
 }
 
 
+table#autor tr td #biography {
+    text-align: justify;
+    font-size: 12pt;
+    color: black;
+    display: block;
+}
+
 
 .regdiv{
     position: relative;
@@ -144,6 +151,30 @@ h4{
     padding: 1% 1% 1% 1%;
     font-family: Cantarell;
     border: #FFD8AA;
+}
+
+div#user {
+    width: 64.72135955%;
+    align-content: center;
+    margin: 5% auto;
+}
+
+div#user img {
+    min-width: 50px;
+    max-width: 90px;
+}
+
+div#user span#username {
+    font-size: 20pt;
+    color: black;
+    vertical-align: top;
+    display: block;
+}
+
+div#user span#city {
+    font-size: 15pt;
+    color: black;
+    vertical-align: top;
 }
 
 .datos th{

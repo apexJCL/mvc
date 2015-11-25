@@ -14,7 +14,7 @@ session_start();
 
 include 'ChromePhp.php';
 
-require_once 'controller/index_controller.php'; // Load the controller
+require_once 'controller/index.php'; // Load the controller
 
 $index = new IndexController(); // Instantiate Index Controller
 
@@ -46,6 +46,9 @@ if(isset($_GET['action'])){
             break;
         case 'search':
             $index->search();
+            break;
+        case 'profile':
+            $index->showProfile();
             break;
     }
 }

@@ -2,10 +2,13 @@
 
 require_once 'controller/autor.php';
 require_once 'controller/login.php';
-require_once 'controller/search_controller.php';
+require_once 'controller/search.php';
 
 if(!isset($_SESSION['username']))
     require_once 'controller/register.php';
+else{
+    require_once 'controller/profile.php';
+}
 
 class IndexController {
 
@@ -30,6 +33,12 @@ class IndexController {
         $controller->showLoginScreen('');
     }
 
+    public function showProfile(){
+        $this->loadTemplate();
+        $controller = new ProfileController();
+        $controller->showProfile();
+    }
+
     public function checkLogin(){
         $controller = new LoginController();
         if($controller->checkLogin())
@@ -41,9 +50,7 @@ class IndexController {
     }
 
     public function search(){
-        ChromePhp::log(isset($_POST['searchstring']));
         if(isset($_POST['searchstring'])){
-            ChromePhp::log("Buscando a: ".$_POST['buscar_autor']);
             $this->loadTemplate();
             $controller = new SearchController();
             $controller->getSearchResults();

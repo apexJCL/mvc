@@ -29,7 +29,6 @@ class DatabaseConnection {
     function raw($sentence){
         $this->openConn();
         $result = $this->conn->query($sentence);
-        ChromePhp::log("Sentence: ".$sentence);
         return $result;
     }
 

@@ -10,7 +10,9 @@ class LogManager {
         $pass = ",'".$pass."'";
         $ans = $conn->singleton('SELECT check_login('.$mail.$pass.')');
         if($ans){
-            $_SESSION['username'] = $conn->raw('CALL nombreLector('.$mail.')')->fetchColumn(0);
+            $userdata = $conn->raw('CALL nombreLector('.$mail.')')->fetch();
+            $_SESSION['username'] = $userdata['nombre_lector'];
+            $_SESSION['city'] = $userdata['ciudad_lector'];
             session_regenerate_id();
         }
         return $ans;

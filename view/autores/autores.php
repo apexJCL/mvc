@@ -3,7 +3,7 @@
     if(isset($_POST['searchstring']))
         echo '<h2>Resultados</h2>';
     else
-        echo '<p id="loremimpsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porta lacinia arcu et euismod. Etiam aliquet pulvinar porttitor. Curabitur porta, odio a porttitor bibendum, justo dolor finibus libero, quis feugiat nulla leo in odio. Sed elementum malesuada felis at congue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis lobortis dolor id vulputate molestie. Cras tempor dui non mi egestas interdum. Nulla at accumsan mauris. Suspendisse sem nulla, iaculis sit amet erat ullamcorper, gravida ullamcorper tellus.<p>';
+        echo '<p id="loremimpsum">Busque un autor del lado izquierdo.<p>';
     ?>
     <table class="datos">
         <?php foreach ($results as $data): ?>
