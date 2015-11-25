@@ -9,10 +9,10 @@ class Autores{
         return $conn->query('SELECT * FROM autor');
     }
 
-    function getAutor($nombre){
-        $nombre = "'".$nombre."'";
+    function getAutor($idAutor){
+        $idAutor = "'".$idAutor."'";
         $conn = new DatabaseConnection();
-        return $conn->query('SELECT * FROM autor WHERE nombre_autor = '.$nombre);
+        return $conn->query('SELECT * FROM autor WHERE id_autor = '.$idAutor);
     }
 
 }

@@ -1,28 +1,12 @@
-<?php
-
-$data['picurl'] = '../img/jkrowling.jpg';
-$data['nombre_autor'] = 'Joanne Rowling';
-$data['pais_autor'] = 'Nepelandia';
-$data['seudonimo'] = 'BK';
-
-?>
-
-<link rel="stylesheet" href="../css/style.css">
 <div>
-    <table class="autor">
+    <table id="autor">
         <tr>
             <td>
-                <?php echo '<img class="image" src="'.$data['picurl'].'"alt="">'; ?>
+                <?php echo '<img class="image" src="'.$data[0]['picurl'].'"alt="">'; ?>
             </td>
             <td>
-                <?php echo $data['nombre_autor']; ?>
+                <?php echo '<span id="name">'.$data[0]['nombre_autor'].'</span><span id="surname">'.$data[0]['seudonimo'].'</span><hr>'.$data[0]['biografia']; ?>
             </td>
-        </tr>
-        <tr>
-            <td colspan="2" align="right">Surname</td>
-        </tr>
-        <tr>
-            <td colspan="2">Biography</td>
         </tr>
     </table>
 </div>

@@ -24,16 +24,40 @@ body{
 }
 
 
-
 /* Div style*/
+
+table#autor{
+    margin: 5% auto;
+    width: 60%;
+    max-width: 60%;
+    min-width: 30%;
+    text-align: left;
+    border: solid 1px #3cb0fd;
+    border-radius: 5px;
+}
+
+table#autor tr td {
+    vertical-align: top;
+}
+
+table#autor tr td #name {
+    font-size: 20pt;
+    color: black;
+    display: block;
+}
+
+table#autor tr td #surname {
+    font-weight: lighter;
+    font-size: 14pt;
+    color: gray;
+    display: block;
+}
+
+
 
 .regdiv{
     position: relative;
     padding: 5% 0% 0% 0%;
-}
-
-.autor table {
-    border: #3cb0fd;
 }
 
 .datadiv{
@@ -165,7 +189,7 @@ li{
 }
 
 .image {
-    width: 50%;
+    max-width: 100%;
 }
 
 #menu li a{
