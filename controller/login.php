@@ -15,4 +15,9 @@ class LoginController {
         return $logman->login($_SESSION['mail'], $_SESSION['pass']);
     }
 
+    function closeSession(){
+        $logman = new LogManager();
+        $logman->logout();
+    }
+
 }

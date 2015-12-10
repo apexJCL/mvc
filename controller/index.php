@@ -72,6 +72,8 @@ class IndexController {
     }
 
     public function logout(){
+        $controller = new LoginController();
+        $controller->closeSession();
         session_destroy();
         header('Location: index.php');
     }
