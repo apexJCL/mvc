@@ -1,3 +1,18 @@
+<?php
+if(isset($mode)){
+    switch($mode){
+        case 'badmail':
+            echo '<script>alert("El correo ingresado no es válido")</script>';
+            break;
+        case 'passdontmatch':
+            echo '<script>alert("Las contraseñas no coinciden")</script>';
+            break;
+        case 'good':
+            header('Location: index.php?action=login');
+            break;
+    }
+}
+?>
 <div id="form" class="regdiv">
     <form action="index.php?action=checkr" method="post">
         <table class="registro" frame="box" align="center">

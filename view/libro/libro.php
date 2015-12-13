@@ -1,18 +1,16 @@
-<link rel="stylesheet" href="../css/style.css">
-<div>
-    <table id="autor">
-        <tr>
-            <td>
-                <?php
-                if(strlen($data[0][picurl]) <= 0)
-                    echo '<img class="image" src="view/img/icon-user-default.png">';
-                else
-                    echo '<img class="image" src="'.$data[0]['picurl'].'"">';
-                ?>
-            </td>
-            <td>
-                <?php echo '<span id="name">'.$data[0]['nombre_autor'].'</span><span id="surname">'.$data[0]['seudonimo'].'</span><hr><span id="biography">'.$data[0]['biografia'].'</span>'; ?>
-            </td>
-        </tr>
-    </table>
+<div id="autor">
+    <div id="cover">
+        <?php
+        echo '<img src="'.$data[0]['picurl'].'">'
+        ?>
+    </div>
+    <div id="information">
+        <?php
+        echo '<span id="title">'.$data[0]['titulo'].'</span>';
+        echo '<span id="autor"><a href="index.php?autor='.$data[0]['id_autor'].'" id="">'.$data[0]['nombre_autor'].'</a></span>';
+        echo '<span id="date">'.$data[0]['fecha_publicacion'].'</span>';
+        echo '<hr><span id="titler">Resumen</span>';
+        echo '<span id="resumen">'.$data[0]['resumen'].'</span>';
+        ?>
+    </div>
 </div>

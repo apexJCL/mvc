@@ -23,7 +23,7 @@
                 <td><input type="password" class="niceinput" name="pass"></td>
             </tr>
             <tr>
-                <td colspan="2"><button type="submit" class="nicebutton">Aceptar</button></td>
+                <td colspan="2" align="center"><button type="submit" class="nicebutton">Aceptar</button></td>
             </tr>
         </table>
     </form>

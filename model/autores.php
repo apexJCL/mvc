@@ -6,7 +6,7 @@ class Autores{
 
     function getAutores(){
         $conn = new DatabaseConnection();
-        return $conn->query('SELECT * FROM autor');
+        return $conn->query('CALL verAutores()');
     }
 
     function getAutor($idAutor){

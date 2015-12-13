@@ -4,12 +4,17 @@ require_once 'model/books.php';
 
 class BookController {
 
-    function show(){
+    function showBooks(){
         $model = new Books();
         $books = $model->getBookList();
-        ChromePhp::log($books);
         include 'view/libro/search_menu.php';
         include 'view/libro/libros.php';
+    }
+
+    function showBook(){
+        $model = new Books();
+        $data = $model->getBookData();
+        include 'view/libro/libro.php';
     }
 
 }
