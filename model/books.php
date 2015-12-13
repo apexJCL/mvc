@@ -6,8 +6,12 @@ class Books{
 
     function getBookList(){
         $conn = new DatabaseConnection();
-        ChromePhp::log('Call verLibros()');
         return $conn->query('Call verLibros()');
+    }
+
+    function getBookData(){
+        $conn = new DatabaseConnection();
+        return $conn->query('CALL verLibro('.$_GET['id'].')');
     }
 
 }

@@ -6,6 +6,7 @@ session_start();
 <head>
     <link rel="stylesheet" type="text/css" href="view/css/style.css">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="theme-color" content="#037995">
     <title>Librería Tecnológico</title>
 </head>
 <body>
@@ -38,7 +39,7 @@ if(isset($_GET['action'])){
             $index->logout();
             break;
         case 'register':
-            $index->showRegister();
+            $index->showRegister('show');
             break;
         case 'checkr':
             $index->register();
@@ -48,6 +49,9 @@ if(isset($_GET['action'])){
             break;
         case 'searchb':
             $index->search('book');
+            break;
+        case 'showbook':
+            $index->showBook();
             break;
         case 'profile':
             $index->showProfile();

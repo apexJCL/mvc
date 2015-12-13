@@ -32,7 +32,13 @@ class IndexController {
     public function showBooks(){
         $this->loadTemplate();
         $controller = new BookController();
-        $controller->show();
+        $controller->showBooks();
+    }
+
+    public function showBook(){
+        $this->loadTemplate();
+        $controller = new BookController();
+        $controller->showBook();
     }
 
     public function showLoginScreen(){
@@ -75,16 +81,13 @@ class IndexController {
 
     public function register(){
         $controller = new RegisterController();
-        if($controller->RegisterUser())
-            $this->showLoginScreen();
-        else
-            $this->showStart();
+        $this->showRegister($controller->RegisterUser());
     }
 
-    public function showRegister(){
+    public function showRegister($result){
         $controller = new RegisterController();
         $this->loadTemplate();
-        $controller->showRegisterScreen();
+        $controller->showRegisterScreen($result);
     }
 
     public function logout(){

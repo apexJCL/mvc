@@ -15,7 +15,7 @@ class AutorController {
             include 'view/libro/lista_libros.php';
         }
         else {
-            $lista_autores = $autores->getAutores();
+            $results = $autores->getAutores();
             include 'view/autores/autores.php';
         }
     }

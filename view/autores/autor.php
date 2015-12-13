@@ -1,7 +1,7 @@
 <div id="autor">
     <span id="header">
         <?php
-        if(strlen($data[0][picurl]) <= 0)
+        if(strlen($data[0]['picurl']) <= 0)
             echo '<img class="image" src="view/img/icon-user-default.png">';
         else
             echo '<img class="image" src="'.$data[0]['picurl'].'"">';
