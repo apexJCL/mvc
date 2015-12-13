@@ -10,9 +10,15 @@ class Autores{
     }
 
     function getAutor($idAutor){
-        $idAutor = "'".$idAutor."'";
         $conn = new DatabaseConnection();
-        return $conn->query('SELECT * FROM autor WHERE id_autor = '.$idAutor);
+        $idAutor = $conn->quote($idAutor);
+        return $conn->query('CALL datosAutor('.$idAutor.')');
+    }
+
+    public function getAutorBooks($autor_id){
+        $conn = new DatabaseConnection();
+        ChromePhp::log("Sentence: ".'CALL librosAutor('.$autor_id.')');
+        return $conn->query('CALL librosAutor('.$autor_id.')');
     }
 
 }

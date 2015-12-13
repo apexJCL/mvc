@@ -10,4 +10,9 @@ class Search{
         return $conn->query('CALL searchAutor('.$searchstring.')');
     }
 
+    public function searchBook($searchstring){
+        $conn = new DatabaseConnection();
+        $searchstring = $conn->quote('.*'.$searchstring.'.*');
+        return $conn->query('CALL searchBook('.$searchstring.')');
+    }
 }

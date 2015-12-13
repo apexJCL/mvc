@@ -3,6 +3,7 @@
 require_once 'controller/autor.php';
 require_once 'controller/login.php';
 require_once 'controller/search.php';
+require_once 'controller/book.php';
 
 if(!isset($_SESSION['username']))
     require_once 'controller/register.php';
@@ -24,6 +25,13 @@ class IndexController {
     function showAutors(){
         $this->loadTemplate();
         $controller = new AutorController();
+        $controller->show();
+    }
+
+
+    public function showBooks(){
+        $this->loadTemplate();
+        $controller = new BookController();
         $controller->show();
     }
 
@@ -49,11 +57,19 @@ class IndexController {
         }
     }
 
-    public function search(){
+    public function search($what){
         if(isset($_POST['searchstring'])){
             $this->loadTemplate();
+            ChromePhp::log($what);
             $controller = new SearchController();
-            $controller->getSearchResults();
+            switch($what){
+                case 'autor':
+                    $controller->getAutorSearchResults();
+                    break;
+                case 'book':
+                    $controller->getBookSearchResults();
+                    break;
+            }
         }
     }
 

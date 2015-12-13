@@ -1,9 +1,7 @@
 <div id="datadiv">
     <?php
     if(isset($_POST['searchstring']))
-        echo '<h2>Resultados</h2>';
-    else
-        echo '<p id="loremimpsum">Busque un autor del lado izquierdo.<p>';
+        echo '<span id="title">Resultados</span>';
     ?>
     <table class="datos">
         <?php foreach ($results as $data): ?>

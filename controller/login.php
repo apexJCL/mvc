@@ -12,7 +12,7 @@ class LoginController {
 
     function checkLogin(){
         $logman = new LogManager();
-        return $logman->login($_SESSION['mail'], $_SESSION['pass']);
+        return $logman->login($_POST['mail'], $_POST['pass']);
     }
 
     function closeSession(){

@@ -5,7 +5,7 @@ session_start();
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="view/css/style.css">
-    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>Librería Tecnológico</title>
 </head>
 <body>
@@ -23,6 +23,7 @@ if(isset($_GET['action'])){
         case '':
             break;
         case 'books':
+            $index->showBooks();
             break;
         case 'autors':
             $index->showAutors();
@@ -31,8 +32,6 @@ if(isset($_GET['action'])){
             $index->showLoginScreen();
             break;
         case 'check':
-            $_SESSION['mail'] = $_POST['mail'];
-            $_SESSION['pass'] = $_POST['pass'];
             $index->checkLogin();
             break;
         case 'logout':
@@ -45,7 +44,10 @@ if(isset($_GET['action'])){
             $index->register();
             break;
         case 'search':
-            $index->search();
+            $index->search('autor');
+            break;
+        case 'searchb':
+            $index->search('book');
             break;
         case 'profile':
             $index->showProfile();

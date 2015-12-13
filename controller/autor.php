@@ -9,8 +9,10 @@ class AutorController {
         $autores = new Autores();
         if(isset($_GET['autor'])){
             $data = $autores->getAutor($_GET['autor']);
-            ChromePhp::log('Datos: '.$data);
             include 'view/autores/autor.php';
+            ChromePhp::log($_GET['autor']);
+            $books = $autores->getAutorBooks($_GET['autor']);
+            include 'view/libro/lista_libros.php';
         }
         else {
             $lista_autores = $autores->getAutores();
