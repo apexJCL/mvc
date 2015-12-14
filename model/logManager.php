@@ -14,6 +14,7 @@ class LogManager {
             $_SESSION['username'] = $userdata['nombre_lector'];
             $_SESSION['city'] = $userdata['ciudad_lector'];
             $_SESSION['id'] = $userdata['id_lector'];
+            $_SESSION['user_type'] = $userdata['id_tipo_usuario'];
             session_regenerate_id();
         }
         return $ans;

@@ -38,6 +38,10 @@ if(isset($_GET['action'])){
         case 'logout':
             $index->logout();
             break;
+        case 'manage';
+            if($_SESSION['user_type'] == 1)
+                $index->showManagement();
+            break;
         case 'register':
             $index->showRegister('show');
             break;
@@ -55,6 +59,9 @@ if(isset($_GET['action'])){
             break;
         case 'showbook':
             $index->showBook();
+            break;
+        case 'statistics':
+            $index->showStatistics();
             break;
         case 'profile':
             $index->showProfile();
