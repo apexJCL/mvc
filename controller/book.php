@@ -1,6 +1,8 @@
 <?php
 
 require_once 'model/books.php';
+require_once 'controller/comments.php';
+
 
 class BookController {
 
@@ -13,8 +15,10 @@ class BookController {
 
     function showBook(){
         $model = new Books();
+        $comment_section = new CommentsController();
         $data = $model->getBookData();
         include 'view/libro/libro.php';
+        $comment_section->showComments();
     }
 
 }

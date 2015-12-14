@@ -344,6 +344,52 @@ div#information span#resumen {
     color: white;
     text-align: justify;
 }
+/* Estilo comentarios */
+
+div#comment {
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 5px 5px 5px 5px;
+    max-width: 600px;
+    min-height: 120px;
+    border-left: 5px solid deepskyblue;
+    display: block;
+}
+
+div#commentholder {
+    background-color: #0D9ABB;
+    padding: 1% 5% 5% 5%;
+    min-width: 300px;
+    min-height: 300px;
+    display: block;
+}
+
+div#commentholder textarea {
+    margin: 5px 5px 5px 5px;
+    width: 30%;
+    max-height: 70px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: block;
+}
+
+
+div#userpic img {
+    padding: 5px 5px;
+    min-width: 24px;
+    max-width: 64px;
+    float: left;
+}
+
+div#name {
+    color: black;
+    padding: 5px 5px;
+}
+
+div#text {
+    color: white;
+}
+
 /*  Estilos de la tabla de datos, aun no recuerdo donde los use */
 
 .datos th{

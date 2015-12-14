@@ -13,6 +13,7 @@ class LogManager {
             $userdata = $conn->raw('CALL nombreLector('.$mail.')')->fetch();
             $_SESSION['username'] = $userdata['nombre_lector'];
             $_SESSION['city'] = $userdata['ciudad_lector'];
+            $_SESSION['id'] = $userdata['id_lector'];
             session_regenerate_id();
         }
         return $ans;
