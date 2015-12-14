@@ -50,6 +50,9 @@ if(isset($_GET['action'])){
         case 'searchb':
             $index->search('book');
             break;
+        case 'submit':
+            $index->submitComment();
+            break;
         case 'showbook':
             $index->showBook();
             break;

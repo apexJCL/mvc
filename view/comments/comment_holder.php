@@ -1,10 +1,9 @@
 <div id="commentholder">
 
     <?php
-    ChromePhp::log(isset($_SESSION['id']));
     if(isset($_SESSION['id'])) {
         echo '<span id="title">Agregar comentario: </span>
-                <form action="model/submit_comment.php" id="commentform" method="post">
+                <form action="index.php?action=submit" id="commentform" method="post">
                 <textarea name="comment" id="commentarea" cols="30" rows="10" form="commentform"></textarea>
                 <input type="submit" value="Aceptar" class="nicebutton">
                 </form>';

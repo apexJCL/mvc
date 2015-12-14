@@ -16,409 +16,446 @@
       <table id="7" parent="1" name="libro"/>
       <table id="8" parent="1" name="sugerencia"/>
       <table id="9" parent="1" name="comentario"/>
-      <view id="10" parent="1" name="datosAutor"/>
-      <routine id="11" parent="1" name="check_login">
+      <table id="10" parent="1" name="tipousuario"/>
+      <view id="11" parent="1" name="datosAutor"/>
+      <routine id="12" parent="1" name="check_login">
         <routine-kind>FUNCTION</routine-kind>
       </routine>
-      <routine id="12" parent="1" name="nombreLector">
+      <routine id="13" parent="1" name="nombreLector">
         <routine-kind>PROCEDURE</routine-kind>
       </routine>
-      <routine id="13" parent="1" name="registro">
+      <routine id="14" parent="1" name="registro">
         <routine-kind>FUNCTION</routine-kind>
       </routine>
-      <routine id="14" parent="1" name="searchAutor">
+      <routine id="15" parent="1" name="searchAutor">
         <routine-kind>PROCEDURE</routine-kind>
       </routine>
-      <routine id="15" parent="1" name="logout">
+      <routine id="16" parent="1" name="logout">
         <routine-kind>FUNCTION</routine-kind>
       </routine>
-      <routine id="16" parent="1" name="datosAutor">
+      <routine id="17" parent="1" name="datosAutor">
         <routine-kind>PROCEDURE</routine-kind>
       </routine>
-      <routine id="17" parent="1" name="librosAutor">
+      <routine id="18" parent="1" name="librosAutor">
         <routine-kind>PROCEDURE</routine-kind>
       </routine>
-      <routine id="18" parent="1" name="searchBook">
+      <routine id="19" parent="1" name="searchBook">
         <routine-kind>PROCEDURE</routine-kind>
       </routine>
-      <routine id="19" parent="1" name="verAutores">
+      <routine id="20" parent="1" name="verAutores">
         <routine-kind>PROCEDURE</routine-kind>
       </routine>
-      <routine id="20" parent="1" name="verLibros">
+      <routine id="21" parent="1" name="verLibros">
         <routine-kind>PROCEDURE</routine-kind>
       </routine>
-      <routine id="21" parent="1" name="verLibro">
+      <routine id="22" parent="1" name="verLibro">
         <routine-kind>PROCEDURE</routine-kind>
       </routine>
-      <routine id="22" parent="1" name="getComentarios">
+      <routine id="23" parent="1" name="getComentarios">
         <routine-kind>PROCEDURE</routine-kind>
       </routine>
-      <routine id="23" parent="1" name="getReplies">
+      <routine id="24" parent="1" name="getReplies">
         <routine-kind>PROCEDURE</routine-kind>
       </routine>
-      <routine id="24" parent="1" name="getMainComments">
+      <routine id="25" parent="1" name="getMainComments">
         <routine-kind>PROCEDURE</routine-kind>
       </routine>
-      <routine id="25" parent="1" name="addComment">
+      <routine id="26" parent="1" name="addComment">
         <routine-kind>PROCEDURE</routine-kind>
       </routine>
-      <column id="26" parent="2" name="id_autor">
+      <routine id="27" parent="1" name="addReply">
+        <routine-kind>PROCEDURE</routine-kind>
+      </routine>
+      <column id="28" parent="2" name="id_autor">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="27" parent="2" name="nombre_autor">
+      <column id="29" parent="2" name="nombre_autor">
         <data-type>varchar(200)</data-type>
       </column>
-      <column id="28" parent="2" name="pais_autor">
+      <column id="30" parent="2" name="pais_autor">
         <data-type>varchar(50)</data-type>
       </column>
-      <column id="29" parent="2" name="seudonimo">
+      <column id="31" parent="2" name="seudonimo">
         <data-type>varchar(50)</data-type>
       </column>
-      <column id="30" parent="2" name="biografia">
+      <column id="32" parent="2" name="biografia">
         <data-type>varchar(1000)</data-type>
       </column>
-      <column id="31" parent="2" name="picurl">
+      <column id="33" parent="2" name="picurl">
         <data-type>varchar(30)</data-type>
       </column>
-      <key id="32" parent="2" name="PRIMARY">
+      <key id="34" parent="2" name="PRIMARY">
         <columns>id_autor</columns>
         <primary>1</primary>
       </key>
-      <column id="33" parent="3" name="id_libro">
+      <column id="35" parent="3" name="id_libro">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="34" parent="3" name="id_lector">
+      <column id="36" parent="3" name="id_lector">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <key id="35" parent="3" name="PRIMARY">
+      <key id="37" parent="3" name="PRIMARY">
         <columns>id_libro
 id_lector</columns>
         <primary>1</primary>
       </key>
-      <foreign-key id="36" parent="3" name="FK1_consulta">
+      <foreign-key id="38" parent="3" name="FK1_consulta">
         <columns>id_libro</columns>
         <ref-key>libro.PRIMARY</ref-key>
         <cascade-update-rule>restrict</cascade-update-rule>
         <cascade-delete-rule>restrict</cascade-delete-rule>
       </foreign-key>
-      <foreign-key id="37" parent="3" name="FK2_consulta">
+      <foreign-key id="39" parent="3" name="FK2_consulta">
         <columns>id_lector</columns>
         <ref-key>lector.PRIMARY</ref-key>
         <cascade-update-rule>restrict</cascade-update-rule>
         <cascade-delete-rule>restrict</cascade-delete-rule>
       </foreign-key>
-      <column id="38" parent="4" name="id_editorial">
+      <column id="40" parent="4" name="id_editorial">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="39" parent="4" name="nombre_editorial">
+      <column id="41" parent="4" name="nombre_editorial">
         <data-type>varchar(200)</data-type>
       </column>
-      <column id="40" parent="4" name="pais_editorial">
+      <column id="42" parent="4" name="pais_editorial">
         <data-type>varchar(50)</data-type>
       </column>
-      <column id="41" parent="4" name="fundador">
+      <column id="43" parent="4" name="fundador">
         <data-type>varchar(50)</data-type>
       </column>
-      <column id="42" parent="4" name="fundacion">
+      <column id="44" parent="4" name="fundacion">
         <data-type>int(4)</data-type>
       </column>
-      <key id="43" parent="4" name="PRIMARY">
+      <key id="45" parent="4" name="PRIMARY">
         <columns>id_editorial</columns>
         <primary>1</primary>
       </key>
-      <column id="44" parent="5" name="id_genero">
+      <column id="46" parent="5" name="id_genero">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="45" parent="5" name="descripcion_genero">
+      <column id="47" parent="5" name="descripcion_genero">
         <data-type>varchar(50)</data-type>
       </column>
-      <key id="46" parent="5" name="PRIMARY">
+      <key id="48" parent="5" name="PRIMARY">
         <columns>id_genero</columns>
         <primary>1</primary>
       </key>
-      <column id="47" parent="6" name="id_lector">
+      <column id="49" parent="6" name="id_lector">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="48" parent="6" name="nombre_lector">
+      <column id="50" parent="6" name="nombre_lector">
         <data-type>varchar(50)</data-type>
       </column>
-      <column id="49" parent="6" name="ciudad_lector">
+      <column id="51" parent="6" name="ciudad_lector">
         <data-type>varchar(50)</data-type>
       </column>
-      <column id="50" parent="6" name="sexo">
+      <column id="52" parent="6" name="sexo">
         <data-type>varchar(10)</data-type>
       </column>
-      <column id="51" parent="6" name="email">
+      <column id="53" parent="6" name="email">
         <data-type>varchar(50)</data-type>
       </column>
-      <column id="52" parent="6" name="password">
+      <column id="54" parent="6" name="password">
         <data-type>varchar(8)</data-type>
       </column>
-      <column id="53" parent="6" name="logueado">
+      <column id="55" parent="6" name="logueado">
         <data-type>tinyint(1)</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="54" parent="6" name="ultimo_logueo">
+      <column id="56" parent="6" name="ultimo_logueo">
         <data-type>datetime</data-type>
       </column>
-      <column id="55" parent="6" name="picurl">
+      <column id="57" parent="6" name="picurl">
         <data-type>varchar(50)</data-type>
         <default-expression>&apos;view/img/icon-user-default.png&apos;</default-expression>
       </column>
-      <key id="56" parent="6" name="PRIMARY">
+      <column id="58" parent="6" name="id_tipo_usuario">
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;2&apos;</default-expression>
+      </column>
+      <key id="59" parent="6" name="PRIMARY">
         <columns>id_lector</columns>
         <primary>1</primary>
       </key>
-      <column id="57" parent="7" name="id_libro">
+      <foreign-key id="60" parent="6" name="tipoFK">
+        <columns>id_tipo_usuario</columns>
+        <ref-key>tipousuario.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="61" parent="7" name="id_libro">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="58" parent="7" name="id_autor">
+      <column id="62" parent="7" name="id_autor">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="59" parent="7" name="id_genero">
+      <column id="63" parent="7" name="id_genero">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="60" parent="7" name="id_editorial">
+      <column id="64" parent="7" name="id_editorial">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="61" parent="7" name="titulo">
+      <column id="65" parent="7" name="titulo">
         <data-type>varchar(50)</data-type>
       </column>
-      <column id="62" parent="7" name="fecha_publicacion">
+      <column id="66" parent="7" name="fecha_publicacion">
         <data-type>date</data-type>
       </column>
-      <column id="63" parent="7" name="resumen">
+      <column id="67" parent="7" name="resumen">
         <data-type>varchar(1000)</data-type>
       </column>
-      <column id="64" parent="7" name="picurl">
+      <column id="68" parent="7" name="picurl">
         <data-type>varchar(50)</data-type>
       </column>
-      <key id="65" parent="7" name="PRIMARY">
+      <key id="69" parent="7" name="PRIMARY">
         <columns>id_libro</columns>
         <primary>1</primary>
       </key>
-      <foreign-key id="66" parent="7" name="FK1_libro">
+      <foreign-key id="70" parent="7" name="FK1_libro">
         <columns>id_autor</columns>
         <ref-key>autor.PRIMARY</ref-key>
         <cascade-update-rule>restrict</cascade-update-rule>
         <cascade-delete-rule>restrict</cascade-delete-rule>
       </foreign-key>
-      <foreign-key id="67" parent="7" name="FK2_libro">
+      <foreign-key id="71" parent="7" name="FK2_libro">
         <columns>id_genero</columns>
         <ref-key>genero.PRIMARY</ref-key>
         <cascade-update-rule>restrict</cascade-update-rule>
         <cascade-delete-rule>restrict</cascade-delete-rule>
       </foreign-key>
-      <foreign-key id="68" parent="7" name="FK3_libro">
+      <foreign-key id="72" parent="7" name="FK3_libro">
         <columns>id_editorial</columns>
         <ref-key>editorial.PRIMARY</ref-key>
         <cascade-update-rule>restrict</cascade-update-rule>
         <cascade-delete-rule>restrict</cascade-delete-rule>
       </foreign-key>
-      <column id="69" parent="8" name="id_sugerencia">
+      <column id="73" parent="8" name="id_sugerencia">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="70" parent="8" name="id_lector">
+      <column id="74" parent="8" name="id_lector">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="71" parent="8" name="destinatario">
+      <column id="75" parent="8" name="destinatario">
         <data-type>varchar(50)</data-type>
       </column>
-      <column id="72" parent="8" name="sugerencia">
+      <column id="76" parent="8" name="sugerencia">
         <data-type>text</data-type>
       </column>
-      <key id="73" parent="8" name="PRIMARY">
+      <key id="77" parent="8" name="PRIMARY">
         <columns>id_sugerencia</columns>
         <primary>1</primary>
       </key>
-      <foreign-key id="74" parent="8" name="FK1_sugerencia">
+      <foreign-key id="78" parent="8" name="FK1_sugerencia">
         <columns>id_lector</columns>
         <ref-key>lector.PRIMARY</ref-key>
         <cascade-update-rule>restrict</cascade-update-rule>
         <cascade-delete-rule>restrict</cascade-delete-rule>
       </foreign-key>
-      <column id="75" parent="9" name="id_comentario">
+      <column id="79" parent="9" name="id_comentario">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="76" parent="9" name="id_libro">
+      <column id="80" parent="9" name="id_libro">
         <data-type>int(11)</data-type>
       </column>
-      <column id="77" parent="9" name="id_lector">
+      <column id="81" parent="9" name="id_lector">
         <data-type>int(11)</data-type>
       </column>
-      <column id="78" parent="9" name="fecha">
+      <column id="82" parent="9" name="fecha">
         <data-type>datetime</data-type>
       </column>
-      <column id="79" parent="9" name="comentario">
+      <column id="83" parent="9" name="comentario">
         <data-type>text</data-type>
       </column>
-      <column id="80" parent="9" name="id_respuesta_comentario">
+      <column id="84" parent="9" name="id_respuesta_comentario">
         <data-type>int(11)</data-type>
       </column>
-      <key id="81" parent="9" name="PRIMARY">
+      <key id="85" parent="9" name="PRIMARY">
         <columns>id_comentario</columns>
         <primary>1</primary>
       </key>
-      <foreign-key id="82" parent="9" name="comentarioFK">
+      <foreign-key id="86" parent="9" name="comentarioFK">
         <columns>id_respuesta_comentario</columns>
         <ref-key>PRIMARY</ref-key>
         <cascade-update-rule>restrict</cascade-update-rule>
         <cascade-delete-rule>restrict</cascade-delete-rule>
       </foreign-key>
-      <foreign-key id="83" parent="9" name="lectorFK">
+      <foreign-key id="87" parent="9" name="lectorFK">
         <columns>id_lector</columns>
         <ref-key>lector.PRIMARY</ref-key>
         <cascade-update-rule>restrict</cascade-update-rule>
         <cascade-delete-rule>restrict</cascade-delete-rule>
       </foreign-key>
-      <foreign-key id="84" parent="9" name="libroFK">
+      <foreign-key id="88" parent="9" name="libroFK">
         <columns>id_libro</columns>
         <ref-key>libro.PRIMARY</ref-key>
         <cascade-update-rule>restrict</cascade-update-rule>
         <cascade-delete-rule>restrict</cascade-delete-rule>
       </foreign-key>
-      <column id="85" parent="10" name="id_autor">
+      <column id="89" parent="10" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="90" parent="10" name="descripcion">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <key id="91" parent="10" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="92" parent="11" name="id_autor">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="86" parent="10" name="nombre_autor">
+      <column id="93" parent="11" name="nombre_autor">
         <data-type>varchar(200)</data-type>
       </column>
-      <column id="87" parent="10" name="pais_autor">
+      <column id="94" parent="11" name="pais_autor">
         <data-type>varchar(50)</data-type>
       </column>
-      <column id="88" parent="10" name="seudonimo">
+      <column id="95" parent="11" name="seudonimo">
         <data-type>varchar(50)</data-type>
       </column>
-      <column id="89" parent="10" name="biografia">
+      <column id="96" parent="11" name="biografia">
         <data-type>varchar(1000)</data-type>
       </column>
-      <column id="90" parent="10" name="picurl">
+      <column id="97" parent="11" name="picurl">
         <data-type>varchar(30)</data-type>
       </column>
-      <column id="91" parent="10" name="id_libro">
+      <column id="98" parent="11" name="id_libro">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <default-expression>&apos;0&apos;</default-expression>
       </column>
-      <column id="92" parent="10" name="id_genero">
+      <column id="99" parent="11" name="id_genero">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="93" parent="10" name="id_editorial">
+      <column id="100" parent="11" name="id_editorial">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="94" parent="10" name="titulo">
+      <column id="101" parent="11" name="titulo">
         <data-type>varchar(50)</data-type>
       </column>
-      <argument id="95" parent="11">
+      <argument id="102" parent="12">
         <direction>RETURN</direction>
         <data-type>tinyint(1)</data-type>
       </argument>
-      <argument id="96" parent="11" name="mail">
+      <argument id="103" parent="12" name="mail">
         <direction>IN</direction>
         <data-type>varchar(50)</data-type>
       </argument>
-      <argument id="97" parent="11" name="pass">
+      <argument id="104" parent="12" name="pass">
         <direction>IN</direction>
         <data-type>varchar(8)</data-type>
       </argument>
-      <argument id="98" parent="12" name="mail">
+      <argument id="105" parent="13" name="mail">
         <direction>IN</direction>
         <data-type>varchar(50)</data-type>
       </argument>
-      <argument id="99" parent="13">
+      <argument id="106" parent="14">
         <direction>RETURN</direction>
         <data-type>tinyint(1)</data-type>
       </argument>
-      <argument id="100" parent="13" name="nombre">
+      <argument id="107" parent="14" name="nombre">
         <direction>IN</direction>
         <data-type>varchar(50)</data-type>
       </argument>
-      <argument id="101" parent="13" name="ciudad">
+      <argument id="108" parent="14" name="ciudad">
         <direction>IN</direction>
         <data-type>varchar(50)</data-type>
       </argument>
-      <argument id="102" parent="13" name="sexo">
+      <argument id="109" parent="14" name="sexo">
         <direction>IN</direction>
         <data-type>varchar(10)</data-type>
       </argument>
-      <argument id="103" parent="13" name="mail">
+      <argument id="110" parent="14" name="mail">
         <direction>IN</direction>
         <data-type>varchar(50)</data-type>
       </argument>
-      <argument id="104" parent="13" name="pass">
+      <argument id="111" parent="14" name="pass">
         <direction>IN</direction>
         <data-type>varchar(8)</data-type>
       </argument>
-      <argument id="105" parent="14" name="searchstring">
+      <argument id="112" parent="15" name="searchstring">
         <direction>IN</direction>
         <data-type>varchar(30)</data-type>
       </argument>
-      <argument id="106" parent="15">
+      <argument id="113" parent="16">
         <direction>RETURN</direction>
         <data-type>tinyint(1)</data-type>
       </argument>
-      <argument id="107" parent="15" name="mail">
+      <argument id="114" parent="16" name="mail">
         <direction>IN</direction>
         <data-type>varchar(50)</data-type>
       </argument>
-      <argument id="108" parent="16" name="autor_id">
+      <argument id="115" parent="17" name="autor_id">
         <direction>IN</direction>
         <data-type>int(11)</data-type>
       </argument>
-      <argument id="109" parent="17" name="autor_id">
+      <argument id="116" parent="18" name="autor_id">
         <direction>IN</direction>
         <data-type>int(11)</data-type>
       </argument>
-      <argument id="110" parent="18" name="searchstring">
+      <argument id="117" parent="19" name="searchstring">
         <direction>IN</direction>
         <data-type>varchar(30)</data-type>
       </argument>
-      <argument id="111" parent="21" name="book_id">
+      <argument id="118" parent="22" name="book_id">
         <direction>IN</direction>
         <data-type>int(11)</data-type>
       </argument>
-      <argument id="112" parent="22" name="bookid">
+      <argument id="119" parent="23" name="bookid">
         <direction>IN</direction>
         <data-type>int(11)</data-type>
       </argument>
-      <argument id="113" parent="23" name="main_comment_id">
+      <argument id="120" parent="24" name="main_comment_id">
         <direction>IN</direction>
         <data-type>int(11)</data-type>
       </argument>
-      <argument id="114" parent="24" name="bookid">
+      <argument id="121" parent="25" name="bookid">
         <direction>IN</direction>
         <data-type>int(11)</data-type>
       </argument>
-      <argument id="115" parent="25" name="book_id">
+      <argument id="122" parent="26" name="book_id">
         <direction>IN</direction>
         <data-type>int(11)</data-type>
       </argument>
-      <argument id="116" parent="25" name="reader_id">
+      <argument id="123" parent="26" name="reader_id">
         <direction>IN</direction>
         <data-type>int(11)</data-type>
       </argument>
-      <argument id="117" parent="25" name="typed">
+      <argument id="124" parent="26" name="typed">
         <direction>IN</direction>
         <data-type>text</data-type>
       </argument>
-      <argument id="118" parent="25" name="answerid">
+      <argument id="125" parent="27" name="book_id">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="126" parent="27" name="reader_id">
+        <direction>IN</direction>
+        <data-type>int(11)</data-type>
+      </argument>
+      <argument id="127" parent="27" name="typed">
+        <direction>IN</direction>
+        <data-type>text</data-type>
+      </argument>
+      <argument id="128" parent="27" name="answerid">
         <direction>IN</direction>
         <data-type>int(11)</data-type>
       </argument>

@@ -10,6 +10,7 @@ class Books{
     }
 
     function getBookData(){
+        $_SESSION['bookid'] = $_GET['id'];
         $conn = new DatabaseConnection();
         return $conn->query('CALL verLibro('.$_GET['id'].')');
     }

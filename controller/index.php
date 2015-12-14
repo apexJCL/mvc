@@ -4,6 +4,7 @@ require_once 'controller/autor.php';
 require_once 'controller/login.php';
 require_once 'controller/search.php';
 require_once 'controller/book.php';
+require_once 'controller/comments.php';
 
 if(!isset($_SESSION['username']))
     require_once 'controller/register.php';
@@ -77,6 +78,11 @@ class IndexController {
                     break;
             }
         }
+    }
+
+    public function submitComment() {
+        $controller = new CommentsController();
+        $controller->submitComment();
     }
 
     public function register(){

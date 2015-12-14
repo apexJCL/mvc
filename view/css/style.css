@@ -373,6 +373,22 @@ div#commentholder textarea {
     display: block;
 }
 
+div#smallreply {
+    display: ruby;
+    padding: 5px 5px 5px 5px;
+}
+
+
+div#smallreply span#replytitle{
+    color: #FFD00A;
+    font-size: 10pt;
+}
+
+div#smallreply textarea {
+    width: 70%;
+    min-width: 50%;
+    max-height: 30px;
+}
 
 div#userpic img {
     padding: 5px 5px;

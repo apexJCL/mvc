@@ -52,4 +52,13 @@ class DatabaseConnection {
         $this->closeConn();
         return $res;
     }
+
+    function procedure($sentence, $parameters) {
+        $conn = $this->openConn();
+        $sentence = $conn->prepare($sentence);
+        $sentence->execute($parameters);
+        $this->closeConn();
+    }
+
+
 }
