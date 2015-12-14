@@ -435,6 +435,37 @@ div#data {
     text-decoration: none;
 }
 
+/* Management */
+
+div#showdata {
+    background-color: #025E73;
+    height:100%;
+    overflow: auto;
+}
+
+div#showdata table#data {
+    color: #FFD00A;
+    width: 100%;
+    border: 3px solid #0D9ABB;
+    border-collapse: collapse;
+}
+
+div#showdata table#data th {
+    background-color: rgba(128, 128, 128, 0.6);
+    border: 1px solid white;
+}
+
+div#showdata table#data td {
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    padding: 5px 5px 5px 5px;
+    color: white;
+    text-align: center;
+}
+
+div#showdata table#data td img {
+    max-width: 48px;
+}
+
 /*  Estilos de la tabla de datos, aun no recuerdo donde los use */
 
 .datos th{

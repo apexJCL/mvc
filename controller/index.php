@@ -12,6 +12,7 @@ else{
     require_once 'controller/profile.php';
     if($_SESSION['user_type'] == 1) {
         require_once 'controller/statistics.php';
+        require_once 'controller/edit.php';
         require_once 'controller/management.php';
     }
 }
@@ -61,6 +62,12 @@ class IndexController {
         $this->loadTemplate();
         $controller = new ManagementController();
         $controller->showManagement();
+    }
+
+    public function showEditScreen(){
+        $this->loadTemplate();
+        $controller = new EditController();
+        $controller->showEditScreen();
     }
 
     public function showProfile(){
