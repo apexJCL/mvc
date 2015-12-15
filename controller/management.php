@@ -17,4 +17,9 @@ class ManagementController {
         }
     }
 
+    public function update(){
+        $controller =  new Management();
+        $controller->update();
+    }
+
 }

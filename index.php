@@ -1,4 +1,5 @@
 <?php
+error_reporting(E_ALL);
 session_start();
 ?>
 <!doctype html>
@@ -36,7 +37,7 @@ if(isset($_GET['action'])){
             $index->checkLogin();
             break;
         case 'edit':
-            if($_SESSION['user_type'==1]){
+            if($_SESSION['user_type'] == 1){
                 $index->showEditScreen();
             }
             break;
@@ -70,6 +71,9 @@ if(isset($_GET['action'])){
             break;
         case 'profile':
             $index->showProfile();
+            break;
+        case 'update':
+            $index->updateManager();
             break;
     }
 }

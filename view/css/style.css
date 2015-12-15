@@ -466,6 +466,44 @@ div#showdata table#data td img {
     max-width: 48px;
 }
 
+div#management {
+    background-color: #025E73;
+    padding: 5px 5px 5px 5px;
+}
+
+div#management span#fieldtitle {
+    font-size: 14pt;
+    font-weight: bold;
+    color: white;
+    padding: 10px 5px;
+    display: flex;
+}
+
+div#management hr {
+    border: 1px dashed #57B9D0;
+}
+
+div#management img {
+    max-width: 200px;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+}
+
+div#management input {
+    padding: 5px 5px 5px 5px;
+}
+
+div#management textarea {
+    min-width: 200px;
+    max-width: 40%;
+    width: 40%;
+    height: 150px;
+    margin: 5px 5px 5px 5px;
+    display: block;
+    border-radius: 10px;
+    border: 3px solid crimson;
+}
+
 /*  Estilos de la tabla de datos, aun no recuerdo donde los use */
 
 .datos th{
