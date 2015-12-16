@@ -7,8 +7,8 @@ class DatabaseConnection {
 
     function __construct(){
         $this->conn = null;
-        $this->user = 'lib_admin';
-        $this->pass = '123';
+        $this->user = 'libreria';
+        $this->pass = 'libreria';
     }
 
     private function openConn(){

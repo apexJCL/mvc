@@ -96,7 +96,6 @@ class IndexController {
     public function search($what){
         if(isset($_POST['searchstring'])){
             $this->loadTemplate();
-            ChromePhp::log($what);
             $controller = new SearchController();
             switch($what){
                 case 'autor':

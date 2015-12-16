@@ -2,36 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0b315a4-1390-49e8-8a5f-d31fdb515aec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/img/add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/img/authors/77116-1 (1).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/img/authors/Suzanne_collins.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/img/authors/cagnone.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/img/authors/hpotter_azk.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/img/authors/icon-default-book.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/img/authors/icon-user-default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/img/delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/img/edit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/img/icon-default-book.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/management/authors.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/management/editorials.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/management/genres.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/management/users.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/img/books/hpotter_azk.jpg" afterPath="$PROJECT_DIR$/view/img/books/hpotter_azk.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/img/icon-user-default.png" afterPath="$PROJECT_DIR$/view/img/icon-user-default.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/edit.php" afterPath="$PROJECT_DIR$/controller/edit.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/index.php" afterPath="$PROJECT_DIR$/controller/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/management.php" afterPath="$PROJECT_DIR$/controller/management.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/dbconn.php" afterPath="$PROJECT_DIR$/model/dbconn.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/edit.php" afterPath="$PROJECT_DIR$/model/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/management.php" afterPath="$PROJECT_DIR$/model/management.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/css/style.css" afterPath="$PROJECT_DIR$/view/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/default/menu.php" afterPath="$PROJECT_DIR$/view/default/menu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/management/books.php" afterPath="$PROJECT_DIR$/view/management/books.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/management/edit.php" afterPath="$PROJECT_DIR$/view/management/edit.php" />
     </list>
     <ignored path="mvc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,6 +50,20 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - libros@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -87,8 +74,8 @@
       <file leaf-file-name="console_11.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d2ab274b-2460-4ef9-80e1-0bc115abb6b5/console_11.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.6">
-              <caret line="248" column="0" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="246" column="21" selection-start-line="246" selection-start-column="21" selection-end-line="246" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -97,7 +84,7 @@
       <file leaf-file-name="users.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/management/users.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.961538">
+            <state vertical-scroll-proportion="0.0">
               <caret line="37" column="181" selection-start-line="37" selection-start-column="181" selection-end-line="37" selection-end-column="181" />
               <folding>
                 <marker date="1450277596195" expanded="true" signature="1459:1833" placeholder="..." />
@@ -109,18 +96,28 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075">
+            <state vertical-scroll-proportion="-0.6923077">
               <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dbconn.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/dbconn.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.3461537">
+              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.6538463">
-              <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.36619717">
+              <caret line="101" column="48" selection-start-line="101" selection-start-column="45" selection-end-line="101" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -129,7 +126,7 @@
       <file leaf-file-name="edit.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.1538463">
+            <state vertical-scroll-proportion="0.0">
               <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
               <folding>
                 <element signature="e#185#725#0#PHP" expanded="false" />
@@ -143,7 +140,7 @@
       <file leaf-file-name="edit.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/management/edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.153846">
+            <state vertical-scroll-proportion="0.0">
               <caret line="197" column="63" selection-start-line="197" selection-start-column="63" selection-end-line="197" selection-end-column="63" />
               <folding>
                 <element signature="e#175#5137#0#PHP" expanded="false" />
@@ -196,10 +193,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="management.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="management.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/management.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6956522">
+            <state vertical-scroll-proportion="0.0">
               <caret line="201" column="4" selection-start-line="201" selection-start-column="4" selection-end-line="201" selection-end-column="4" />
               <folding>
                 <element signature="e#1833#3926#0#PHP" expanded="false" />
@@ -211,55 +208,55 @@
                 <element signature="e#11017#12714#0#PHP" expanded="false" />
                 <element signature="e#12727#13130#0#PHP" expanded="false" />
                 <element signature="e#13370#15014#0#PHP" expanded="false" />
-                <marker date="1450285119884" expanded="true" signature="155:169" placeholder="SELECT * FRO..libro..." />
-                <marker date="1450285119884" expanded="true" signature="155:178" placeholder="SELECT * FRO..booksData..." />
-                <marker date="1450285119884" expanded="true" signature="290:309" placeholder="SELECT * FRO..autor..." />
-                <marker date="1450285119884" expanded="true" signature="436:480" placeholder="SELECT * FRO..editorial..." />
-                <marker date="1450285119884" expanded="true" signature="608:631" placeholder="SELECT * FRO..editorial..." />
-                <marker date="1450285119884" expanded="true" signature="889:909" placeholder="SELECT * FRO..genero..." />
-                <marker date="1450285119884" expanded="true" signature="1026:1066" placeholder="SELECT * FRO..libro..." />
-                <marker date="1450285119884" expanded="true" signature="1026:1067" placeholder="SELECT * FRO..libro..." />
-                <marker date="1450285119884" expanded="true" signature="1194:1231" placeholder="SELECT * FRO..autor..." />
-                <marker date="1450285119884" expanded="true" signature="1496:1534" placeholder="SELECT * FRO..lector..." />
-                <marker date="1450285119884" expanded="true" signature="1663:1701" placeholder="SELECT * FRO..genero..." />
-                <marker date="1450285119884" expanded="true" signature="6020:6040" placeholder="UPDATE edito..." />
-                <marker date="1450285119884" expanded="true" signature="6020:6059" placeholder="UPDATE edito..." />
-                <marker date="1450285119884" expanded="true" signature="6020:6109" placeholder="UPDATE edito..." />
-                <marker date="1450285119884" expanded="true" signature="6020:6113" placeholder="UPDATE edito..." />
-                <marker date="1450285119884" expanded="true" signature="6020:6125" placeholder="UPDATE edito..." />
-                <marker date="1450285119884" expanded="true" signature="6020:6126" placeholder="UPDATE edito..." />
-                <marker date="1450285119884" expanded="true" signature="6020:6183" placeholder="UPDATE edito..." />
-                <marker date="1450285119884" expanded="true" signature="6020:6184" placeholder="UPDATE edito..." />
-                <marker date="1450285119884" expanded="true" signature="6020:6236" placeholder="UPDATE edito..." />
-                <marker date="1450285119884" expanded="true" signature="6020:6237" placeholder="UPDATE edito..." />
-                <marker date="1450285119884" expanded="true" signature="6020:6265" placeholder="UPDATE edito..." />
-                <marker date="1450285119884" expanded="true" signature="6020:6266" placeholder="UPDATE edito..." />
-                <marker date="1450285119884" expanded="true" signature="6020:6268" placeholder="UPDATE edito..." />
-                <marker date="1450285119884" expanded="true" signature="6020:6271" placeholder="UPDATE edito..." />
-                <marker date="1450285119884" expanded="true" signature="6020:6280" placeholder="UPDATE edito..." />
-                <marker date="1450285119884" expanded="true" signature="6020:6281" placeholder="UPDATE edito..." />
-                <marker date="1450285119884" expanded="true" signature="6020:6282" placeholder="UPDATE edito..." />
-                <marker date="1450285119884" expanded="true" signature="6429:6467" placeholder="UPDATE gener..." />
-                <marker date="1450285119884" expanded="true" signature="6429:6531" placeholder="UPDATE gener..." />
-                <marker date="1450285119884" expanded="true" signature="6429:6532" placeholder="UPDATE gener..." />
-                <marker date="1450285119884" expanded="true" signature="11450:11720" placeholder="INSERT INTO autor..." />
-                <marker date="1450285119884" expanded="true" signature="11785:12059" placeholder="INSERT INTO autor..." />
-                <marker date="1450285119884" expanded="true" signature="12281:12547" placeholder="INSERT INTO autor..." />
-                <marker date="1450285119884" expanded="true" signature="12824:12845" placeholder="INSERT INTO editorial..." />
-                <marker date="1450285119884" expanded="true" signature="12824:12909" placeholder="INSERT INTO editorial..." />
-                <marker date="1450285119884" expanded="true" signature="12824:13064" placeholder="INSERT INTO editorial..." />
-                <marker date="1450285119884" expanded="true" signature="13237:13284" placeholder="INSERT INTO genero..." />
-                <marker date="1450285119884" expanded="true" signature="13237:13331" placeholder="INSERT INTO genero..." />
-                <marker date="1450285119884" expanded="true" signature="13237:13332" placeholder="INSERT INTO genero..." />
-                <marker date="1450285119884" expanded="true" signature="15212:15253" placeholder="SELECT picur..libro..." />
-                <marker date="1450285119884" expanded="true" signature="15212:15254" placeholder="SELECT picur..libro..." />
-                <marker date="1450285119884" expanded="true" signature="15432:15466" placeholder="DELETE FROM ..." />
-                <marker date="1450285119884" expanded="true" signature="15625:15667" placeholder="SELECT picur..autor..." />
-                <marker date="1450285119884" expanded="true" signature="15852:15886" placeholder="DELETE FROM ..." />
-                <marker date="1450285119884" expanded="true" signature="16036:16078" placeholder="DELETE FROM ..." />
-                <marker date="1450285119884" expanded="true" signature="16224:16260" placeholder="DELETE FROM ..." />
-                <marker date="1450285119884" expanded="true" signature="16407:16441" placeholder="DELETE FROM ..." />
-                <marker date="1450285119884" expanded="true" signature="16407:16443" placeholder="DELETE FROM ..." />
+                <marker date="1450302509965" expanded="true" signature="155:169" placeholder="SELECT * FRO..libro..." />
+                <marker date="1450302509965" expanded="true" signature="155:178" placeholder="SELECT * FRO..booksData..." />
+                <marker date="1450302509965" expanded="true" signature="290:309" placeholder="SELECT * FRO..autor..." />
+                <marker date="1450302509965" expanded="true" signature="436:480" placeholder="SELECT * FRO..editorial..." />
+                <marker date="1450302509965" expanded="true" signature="608:631" placeholder="SELECT * FRO..editorial..." />
+                <marker date="1450302509965" expanded="true" signature="889:909" placeholder="SELECT * FRO..genero..." />
+                <marker date="1450302509965" expanded="true" signature="1026:1066" placeholder="SELECT * FRO..libro..." />
+                <marker date="1450302509965" expanded="true" signature="1026:1067" placeholder="SELECT * FRO..libro..." />
+                <marker date="1450302509965" expanded="true" signature="1194:1231" placeholder="SELECT * FRO..autor..." />
+                <marker date="1450302509965" expanded="true" signature="1496:1534" placeholder="SELECT * FRO..lector..." />
+                <marker date="1450302509965" expanded="true" signature="1663:1701" placeholder="SELECT * FRO..genero..." />
+                <marker date="1450302509965" expanded="true" signature="6020:6040" placeholder="UPDATE edito..." />
+                <marker date="1450302509965" expanded="true" signature="6020:6059" placeholder="UPDATE edito..." />
+                <marker date="1450302509965" expanded="true" signature="6020:6109" placeholder="UPDATE edito..." />
+                <marker date="1450302509965" expanded="true" signature="6020:6113" placeholder="UPDATE edito..." />
+                <marker date="1450302509965" expanded="true" signature="6020:6125" placeholder="UPDATE edito..." />
+                <marker date="1450302509965" expanded="true" signature="6020:6126" placeholder="UPDATE edito..." />
+                <marker date="1450302509965" expanded="true" signature="6020:6183" placeholder="UPDATE edito..." />
+                <marker date="1450302509965" expanded="true" signature="6020:6184" placeholder="UPDATE edito..." />
+                <marker date="1450302509965" expanded="true" signature="6020:6236" placeholder="UPDATE edito..." />
+                <marker date="1450302509965" expanded="true" signature="6020:6237" placeholder="UPDATE edito..." />
+                <marker date="1450302509965" expanded="true" signature="6020:6265" placeholder="UPDATE edito..." />
+                <marker date="1450302509965" expanded="true" signature="6020:6266" placeholder="UPDATE edito..." />
+                <marker date="1450302509965" expanded="true" signature="6020:6268" placeholder="UPDATE edito..." />
+                <marker date="1450302509965" expanded="true" signature="6020:6271" placeholder="UPDATE edito..." />
+                <marker date="1450302509965" expanded="true" signature="6020:6280" placeholder="UPDATE edito..." />
+                <marker date="1450302509965" expanded="true" signature="6020:6281" placeholder="UPDATE edito..." />
+                <marker date="1450302509965" expanded="true" signature="6020:6282" placeholder="UPDATE edito..." />
+                <marker date="1450302509965" expanded="true" signature="6429:6467" placeholder="UPDATE gener..." />
+                <marker date="1450302509965" expanded="true" signature="6429:6531" placeholder="UPDATE gener..." />
+                <marker date="1450302509965" expanded="true" signature="6429:6532" placeholder="UPDATE gener..." />
+                <marker date="1450302509965" expanded="true" signature="11450:11720" placeholder="INSERT INTO autor..." />
+                <marker date="1450302509965" expanded="true" signature="11785:12059" placeholder="INSERT INTO autor..." />
+                <marker date="1450302509965" expanded="true" signature="12281:12547" placeholder="INSERT INTO autor..." />
+                <marker date="1450302509965" expanded="true" signature="12824:12845" placeholder="INSERT INTO editorial..." />
+                <marker date="1450302509965" expanded="true" signature="12824:12909" placeholder="INSERT INTO editorial..." />
+                <marker date="1450302509965" expanded="true" signature="12824:13064" placeholder="INSERT INTO editorial..." />
+                <marker date="1450302509965" expanded="true" signature="13237:13284" placeholder="INSERT INTO genero..." />
+                <marker date="1450302509965" expanded="true" signature="13237:13331" placeholder="INSERT INTO genero..." />
+                <marker date="1450302509965" expanded="true" signature="13237:13332" placeholder="INSERT INTO genero..." />
+                <marker date="1450302509965" expanded="true" signature="15212:15253" placeholder="SELECT picur..libro..." />
+                <marker date="1450302509965" expanded="true" signature="15212:15254" placeholder="SELECT picur..libro..." />
+                <marker date="1450302509965" expanded="true" signature="15432:15466" placeholder="DELETE FROM ..." />
+                <marker date="1450302509965" expanded="true" signature="15625:15667" placeholder="SELECT picur..autor..." />
+                <marker date="1450302509965" expanded="true" signature="15852:15886" placeholder="DELETE FROM ..." />
+                <marker date="1450302509965" expanded="true" signature="16036:16078" placeholder="DELETE FROM ..." />
+                <marker date="1450302509965" expanded="true" signature="16224:16260" placeholder="DELETE FROM ..." />
+                <marker date="1450302509965" expanded="true" signature="16407:16441" placeholder="DELETE FROM ..." />
+                <marker date="1450302509965" expanded="true" signature="16407:16443" placeholder="DELETE FROM ..." />
               </folding>
             </state>
           </provider>
@@ -268,7 +265,7 @@
       <file leaf-file-name="genres.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/management/genres.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3076923">
+            <state vertical-scroll-proportion="0.0">
               <caret line="2" column="84" selection-start-line="2" selection-start-column="84" selection-end-line="2" selection-end-column="84" />
               <folding>
                 <marker date="1450284907618" expanded="true" signature="505:891" placeholder="..." />
@@ -300,7 +297,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d2ab274b-2460-4ef9-80e1-0bc115abb6b5/console_13.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d2ab274b-2460-4ef9-80e1-0bc115abb6b5/console_12.sql" />
         <option value="$PROJECT_DIR$/controller/login.php" />
         <option value="$PROJECT_DIR$/view/autores/search_menu.php" />
@@ -336,9 +332,6 @@
         <option value="$PROJECT_DIR$/view/management/statistics.php" />
         <option value="$PROJECT_DIR$/controller/statistics.php" />
         <option value="$PROJECT_DIR$/model/edit.php" />
-        <option value="$PROJECT_DIR$/model/dbconn.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/controller/index.php" />
         <option value="$PROJECT_DIR$/view/css/style.css" />
         <option value="$PROJECT_DIR$/view/management/authors.php" />
         <option value="$PROJECT_DIR$/view/default/menu.php" />
@@ -351,6 +344,10 @@
         <option value="$PROJECT_DIR$/view/management/genres.php" />
         <option value="$PROJECT_DIR$/view/management/edit.php" />
         <option value="$PROJECT_DIR$/model/management.php" />
+        <option value="dbroutine:/be19703a/d2ab274b-2460-4ef9-80e1-0bc115abb6b5/libros.insertLibro" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/model/dbconn.php" />
+        <option value="$PROJECT_DIR$/controller/index.php" />
       </list>
     </option>
   </component>
@@ -370,7 +367,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="31" />
-    <option name="width" value="1360" />
+    <option name="width" value="1366" />
     <option name="height" value="737" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -432,24 +429,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="management" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -477,7 +456,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="settings.editor.selected.configurable" value="database.main" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="edit&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/management/edit.php&#10;menu&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/default/menu.php&#10;sty&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/css/style.css&#10;st&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/css/style.css&#10;style&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/css/style.css&#10;search_menu&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/libro/search_menu.php&#10;db&#9;FILE&#9;file:///home/apex/GitHub/mvc/model/dbconn.php&#10;styl&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/css/style.css&#10;index&#9;FILE&#9;file:///home/apex/GitHub/mvc/controller/index.php&#10;comment_ho&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/comments/comment_holder.php&#10;comment_&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/comments/comment_holder.php&#10;comment_g&#9;null&#9;null&#10;comme&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/comments/comment.php&#10;comment&#9;FILE&#9;file:///home/apex/GitHub/mvc/controller/comments.php&#10;Comment_h&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/comments/comment_holder.php&#10;ind&#9;FILE&#9;file:///home/apex/GitHub/mvc/controller/index.php&#10;registro&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/registro.php&#10;regist&#9;FILE&#9;file:///home/apex/GitHub/mvc/controller/register.php&#10;registe&#9;FILE&#9;file:///home/apex/GitHub/mvc/controller/register.php&#10;conso&#9;FILE&#9;file:///home/apex/.WebIde100/config/consoles/db/d2ab274b-2460-4ef9-80e1-0bc115abb6b5/console_11.sql&#10;libros&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/libro/libros.php&#10;inde&#9;FILE&#9;file:///home/apex/GitHub/mvc/index.php&#10;libro&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/libro/lista_libros.php&#10;search&#9;FILE&#9;file:///home/apex/GitHub/mvc/model/search.php&#10;search_me&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/autores/search_menu.php&#10;auto&#9;FILE&#9;file:///home/apex/GitHub/mvc/model/autores.php&#10;searc&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/autores/search_menu.php&#10;sear&#9;FILE&#9;file:///home/apex/GitHub/mvc/model/search.php&#10;user&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/user/user.php&#10;prof&#9;FILE&#9;file:///home/apex/GitHub/mvc/controller/profile.php&#10;autor&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/autores/autor.php" />
+    <property name="SearchEverywhereHistoryKey" value="dbco&#9;FILE&#9;file:///home/apex/GitHub/mvc/model/dbconn.php&#10;edit&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/management/edit.php&#10;menu&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/default/menu.php&#10;sty&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/css/style.css&#10;st&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/css/style.css&#10;style&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/css/style.css&#10;search_menu&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/libro/search_menu.php&#10;db&#9;FILE&#9;file:///home/apex/GitHub/mvc/model/dbconn.php&#10;styl&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/css/style.css&#10;index&#9;FILE&#9;file:///home/apex/GitHub/mvc/controller/index.php&#10;comment_ho&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/comments/comment_holder.php&#10;comment_&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/comments/comment_holder.php&#10;comment_g&#9;null&#9;null&#10;comme&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/comments/comment.php&#10;comment&#9;FILE&#9;file:///home/apex/GitHub/mvc/controller/comments.php&#10;Comment_h&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/comments/comment_holder.php&#10;ind&#9;FILE&#9;file:///home/apex/GitHub/mvc/controller/index.php&#10;registro&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/registro.php&#10;regist&#9;FILE&#9;file:///home/apex/GitHub/mvc/controller/register.php&#10;registe&#9;FILE&#9;file:///home/apex/GitHub/mvc/controller/register.php&#10;conso&#9;FILE&#9;file:///home/apex/.WebIde100/config/consoles/db/d2ab274b-2460-4ef9-80e1-0bc115abb6b5/console_11.sql&#10;libros&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/libro/libros.php&#10;inde&#9;FILE&#9;file:///home/apex/GitHub/mvc/index.php&#10;libro&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/libro/lista_libros.php&#10;search&#9;FILE&#9;file:///home/apex/GitHub/mvc/model/search.php&#10;search_me&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/autores/search_menu.php&#10;auto&#9;FILE&#9;file:///home/apex/GitHub/mvc/model/autores.php&#10;searc&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/autores/search_menu.php&#10;sear&#9;FILE&#9;file:///home/apex/GitHub/mvc/model/search.php&#10;user&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/user/user.php&#10;prof&#9;FILE&#9;file:///home/apex/GitHub/mvc/controller/profile.php&#10;autor&#9;FILE&#9;file:///home/apex/GitHub/mvc/view/autores/autor.php" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -640,30 +619,36 @@
       <option name="project" value="LOCAL" />
       <updated>1450159340907</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="New Design.&#10;&#10;Added:&#10;- First stages of administrative webpage&#10;&#10;TODO:&#10;- Fix book data display (not loaded?)">
+      <created>1450285536579</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1450285536579</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="31" width="1360" height="737" extended-state="6" />
+    <frame x="0" y="31" width="1366" height="737" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11706948" sideWeight="0.4822335" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279483" sideWeight="0.49697885" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20355412" sideWeight="0.49697885" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32148626" sideWeight="0.5030211" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22583081" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279483" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31987077" sideWeight="0.4954683" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2276176" sideWeight="0.4822335" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22610015" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15030211" sideWeight="0.5177665" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279483" sideWeight="0.49697885" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20355412" sideWeight="0.49697885" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31987077" sideWeight="0.4954683" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -722,13 +707,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/controller/profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2881356">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/autores/search_menu.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.046321526">
@@ -922,9 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.5">
           <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding>
-            <marker date="1450209426161" expanded="true" signature="219:260" placeholder="SELECT * FRO..booksData..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -946,7 +921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8289855">
           <caret line="475" column="18" selection-start-line="475" selection-start-column="18" selection-end-line="475" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -954,9 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5769231">
           <caret line="22" column="84" selection-start-line="22" selection-start-column="84" selection-end-line="22" selection-end-column="84" />
-          <folding>
-            <marker date="1450231530458" expanded="true" signature="877:1217" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -964,20 +935,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.9230769">
           <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/be19703a/d2ab274b-2460-4ef9-80e1-0bc115abb6b5/libros.autor">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -985,22 +954,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.56811595">
           <caret line="18" column="107" selection-start-line="18" selection-start-column="107" selection-end-line="18" selection-end-column="107" />
-          <folding>
-            <marker date="1450269607381" expanded="true" signature="542:1251" placeholder="..." />
-            <marker date="1450269607381" expanded="true" signature="603:1221" placeholder="..." />
-            <marker date="1450269607381" expanded="true" signature="1383:1709" placeholder="..." />
-            <marker date="1450269607381" expanded="true" signature="1441:1679" placeholder="..." />
-            <marker date="1450269607381" expanded="true" signature="1765:2051" placeholder="..." />
-            <marker date="1450269607381" expanded="true" signature="1815:2029" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/dbconn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1449275">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1008,22 +961,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="6" />
-          <folding>
-            <marker date="1450271018617" expanded="true" signature="758:1159" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/be19703a/d2ab274b-2460-4ef9-80e1-0bc115abb6b5/libros.libro">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1031,10 +980,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="6" />
-          <folding>
-            <marker date="1450275214224" expanded="true" signature="1062:1229" placeholder="..." />
-            <marker date="1450275214224" expanded="true" signature="1062:1398" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1042,7 +987,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.16273585">
           <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1050,7 +994,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.9230769">
           <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1058,13 +1001,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9701087">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/management/users.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.961538">
+        <state vertical-scroll-proportion="0.0">
           <caret line="37" column="181" selection-start-line="37" selection-start-column="181" selection-end-line="37" selection-end-column="181" />
           <folding>
             <marker date="1450277596195" expanded="true" signature="1459:1833" placeholder="..." />
@@ -1072,43 +1014,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d2ab274b-2460-4ef9-80e1-0bc115abb6b5/console_11.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.6">
-          <caret line="248" column="0" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/management/genres.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923">
-          <caret line="2" column="84" selection-start-line="2" selection-start-column="84" selection-end-line="2" selection-end-column="84" />
-          <folding>
-            <marker date="1450284907618" expanded="true" signature="505:891" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075">
-          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6538463">
-          <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/management/edit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.153846">
+        <state vertical-scroll-proportion="0.0">
           <caret line="197" column="63" selection-start-line="197" selection-start-column="63" selection-end-line="197" selection-end-column="63" />
           <folding>
             <element signature="e#175#5137#0#PHP" expanded="false" />
@@ -1162,7 +1070,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/edit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.1538463">
+        <state vertical-scroll-proportion="0.0">
           <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
           <folding>
             <element signature="e#185#725#0#PHP" expanded="false" />
@@ -1174,7 +1082,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/management.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6956522">
+        <state vertical-scroll-proportion="0.0">
           <caret line="201" column="4" selection-start-line="201" selection-start-column="4" selection-end-line="201" selection-end-column="4" />
           <folding>
             <element signature="e#1833#3926#0#PHP" expanded="false" />
@@ -1186,56 +1094,105 @@
             <element signature="e#11017#12714#0#PHP" expanded="false" />
             <element signature="e#12727#13130#0#PHP" expanded="false" />
             <element signature="e#13370#15014#0#PHP" expanded="false" />
-            <marker date="1450285119884" expanded="true" signature="155:169" placeholder="SELECT * FRO..libro..." />
-            <marker date="1450285119884" expanded="true" signature="155:178" placeholder="SELECT * FRO..booksData..." />
-            <marker date="1450285119884" expanded="true" signature="290:309" placeholder="SELECT * FRO..autor..." />
-            <marker date="1450285119884" expanded="true" signature="436:480" placeholder="SELECT * FRO..editorial..." />
-            <marker date="1450285119884" expanded="true" signature="608:631" placeholder="SELECT * FRO..editorial..." />
-            <marker date="1450285119884" expanded="true" signature="889:909" placeholder="SELECT * FRO..genero..." />
-            <marker date="1450285119884" expanded="true" signature="1026:1066" placeholder="SELECT * FRO..libro..." />
-            <marker date="1450285119884" expanded="true" signature="1026:1067" placeholder="SELECT * FRO..libro..." />
-            <marker date="1450285119884" expanded="true" signature="1194:1231" placeholder="SELECT * FRO..autor..." />
-            <marker date="1450285119884" expanded="true" signature="1496:1534" placeholder="SELECT * FRO..lector..." />
-            <marker date="1450285119884" expanded="true" signature="1663:1701" placeholder="SELECT * FRO..genero..." />
-            <marker date="1450285119884" expanded="true" signature="6020:6040" placeholder="UPDATE edito..." />
-            <marker date="1450285119884" expanded="true" signature="6020:6059" placeholder="UPDATE edito..." />
-            <marker date="1450285119884" expanded="true" signature="6020:6109" placeholder="UPDATE edito..." />
-            <marker date="1450285119884" expanded="true" signature="6020:6113" placeholder="UPDATE edito..." />
-            <marker date="1450285119884" expanded="true" signature="6020:6125" placeholder="UPDATE edito..." />
-            <marker date="1450285119884" expanded="true" signature="6020:6126" placeholder="UPDATE edito..." />
-            <marker date="1450285119884" expanded="true" signature="6020:6183" placeholder="UPDATE edito..." />
-            <marker date="1450285119884" expanded="true" signature="6020:6184" placeholder="UPDATE edito..." />
-            <marker date="1450285119884" expanded="true" signature="6020:6236" placeholder="UPDATE edito..." />
-            <marker date="1450285119884" expanded="true" signature="6020:6237" placeholder="UPDATE edito..." />
-            <marker date="1450285119884" expanded="true" signature="6020:6265" placeholder="UPDATE edito..." />
-            <marker date="1450285119884" expanded="true" signature="6020:6266" placeholder="UPDATE edito..." />
-            <marker date="1450285119884" expanded="true" signature="6020:6268" placeholder="UPDATE edito..." />
-            <marker date="1450285119884" expanded="true" signature="6020:6271" placeholder="UPDATE edito..." />
-            <marker date="1450285119884" expanded="true" signature="6020:6280" placeholder="UPDATE edito..." />
-            <marker date="1450285119884" expanded="true" signature="6020:6281" placeholder="UPDATE edito..." />
-            <marker date="1450285119884" expanded="true" signature="6020:6282" placeholder="UPDATE edito..." />
-            <marker date="1450285119884" expanded="true" signature="6429:6467" placeholder="UPDATE gener..." />
-            <marker date="1450285119884" expanded="true" signature="6429:6531" placeholder="UPDATE gener..." />
-            <marker date="1450285119884" expanded="true" signature="6429:6532" placeholder="UPDATE gener..." />
-            <marker date="1450285119884" expanded="true" signature="11450:11720" placeholder="INSERT INTO autor..." />
-            <marker date="1450285119884" expanded="true" signature="11785:12059" placeholder="INSERT INTO autor..." />
-            <marker date="1450285119884" expanded="true" signature="12281:12547" placeholder="INSERT INTO autor..." />
-            <marker date="1450285119884" expanded="true" signature="12824:12845" placeholder="INSERT INTO editorial..." />
-            <marker date="1450285119884" expanded="true" signature="12824:12909" placeholder="INSERT INTO editorial..." />
-            <marker date="1450285119884" expanded="true" signature="12824:13064" placeholder="INSERT INTO editorial..." />
-            <marker date="1450285119884" expanded="true" signature="13237:13284" placeholder="INSERT INTO genero..." />
-            <marker date="1450285119884" expanded="true" signature="13237:13331" placeholder="INSERT INTO genero..." />
-            <marker date="1450285119884" expanded="true" signature="13237:13332" placeholder="INSERT INTO genero..." />
-            <marker date="1450285119884" expanded="true" signature="15212:15253" placeholder="SELECT picur..libro..." />
-            <marker date="1450285119884" expanded="true" signature="15212:15254" placeholder="SELECT picur..libro..." />
-            <marker date="1450285119884" expanded="true" signature="15432:15466" placeholder="DELETE FROM ..." />
-            <marker date="1450285119884" expanded="true" signature="15625:15667" placeholder="SELECT picur..autor..." />
-            <marker date="1450285119884" expanded="true" signature="15852:15886" placeholder="DELETE FROM ..." />
-            <marker date="1450285119884" expanded="true" signature="16036:16078" placeholder="DELETE FROM ..." />
-            <marker date="1450285119884" expanded="true" signature="16224:16260" placeholder="DELETE FROM ..." />
-            <marker date="1450285119884" expanded="true" signature="16407:16441" placeholder="DELETE FROM ..." />
-            <marker date="1450285119884" expanded="true" signature="16407:16443" placeholder="DELETE FROM ..." />
+            <marker date="1450302509965" expanded="true" signature="155:169" placeholder="SELECT * FRO..libro..." />
+            <marker date="1450302509965" expanded="true" signature="155:178" placeholder="SELECT * FRO..booksData..." />
+            <marker date="1450302509965" expanded="true" signature="290:309" placeholder="SELECT * FRO..autor..." />
+            <marker date="1450302509965" expanded="true" signature="436:480" placeholder="SELECT * FRO..editorial..." />
+            <marker date="1450302509965" expanded="true" signature="608:631" placeholder="SELECT * FRO..editorial..." />
+            <marker date="1450302509965" expanded="true" signature="889:909" placeholder="SELECT * FRO..genero..." />
+            <marker date="1450302509965" expanded="true" signature="1026:1066" placeholder="SELECT * FRO..libro..." />
+            <marker date="1450302509965" expanded="true" signature="1026:1067" placeholder="SELECT * FRO..libro..." />
+            <marker date="1450302509965" expanded="true" signature="1194:1231" placeholder="SELECT * FRO..autor..." />
+            <marker date="1450302509965" expanded="true" signature="1496:1534" placeholder="SELECT * FRO..lector..." />
+            <marker date="1450302509965" expanded="true" signature="1663:1701" placeholder="SELECT * FRO..genero..." />
+            <marker date="1450302509965" expanded="true" signature="6020:6040" placeholder="UPDATE edito..." />
+            <marker date="1450302509965" expanded="true" signature="6020:6059" placeholder="UPDATE edito..." />
+            <marker date="1450302509965" expanded="true" signature="6020:6109" placeholder="UPDATE edito..." />
+            <marker date="1450302509965" expanded="true" signature="6020:6113" placeholder="UPDATE edito..." />
+            <marker date="1450302509965" expanded="true" signature="6020:6125" placeholder="UPDATE edito..." />
+            <marker date="1450302509965" expanded="true" signature="6020:6126" placeholder="UPDATE edito..." />
+            <marker date="1450302509965" expanded="true" signature="6020:6183" placeholder="UPDATE edito..." />
+            <marker date="1450302509965" expanded="true" signature="6020:6184" placeholder="UPDATE edito..." />
+            <marker date="1450302509965" expanded="true" signature="6020:6236" placeholder="UPDATE edito..." />
+            <marker date="1450302509965" expanded="true" signature="6020:6237" placeholder="UPDATE edito..." />
+            <marker date="1450302509965" expanded="true" signature="6020:6265" placeholder="UPDATE edito..." />
+            <marker date="1450302509965" expanded="true" signature="6020:6266" placeholder="UPDATE edito..." />
+            <marker date="1450302509965" expanded="true" signature="6020:6268" placeholder="UPDATE edito..." />
+            <marker date="1450302509965" expanded="true" signature="6020:6271" placeholder="UPDATE edito..." />
+            <marker date="1450302509965" expanded="true" signature="6020:6280" placeholder="UPDATE edito..." />
+            <marker date="1450302509965" expanded="true" signature="6020:6281" placeholder="UPDATE edito..." />
+            <marker date="1450302509965" expanded="true" signature="6020:6282" placeholder="UPDATE edito..." />
+            <marker date="1450302509965" expanded="true" signature="6429:6467" placeholder="UPDATE gener..." />
+            <marker date="1450302509965" expanded="true" signature="6429:6531" placeholder="UPDATE gener..." />
+            <marker date="1450302509965" expanded="true" signature="6429:6532" placeholder="UPDATE gener..." />
+            <marker date="1450302509965" expanded="true" signature="11450:11720" placeholder="INSERT INTO autor..." />
+            <marker date="1450302509965" expanded="true" signature="11785:12059" placeholder="INSERT INTO autor..." />
+            <marker date="1450302509965" expanded="true" signature="12281:12547" placeholder="INSERT INTO autor..." />
+            <marker date="1450302509965" expanded="true" signature="12824:12845" placeholder="INSERT INTO editorial..." />
+            <marker date="1450302509965" expanded="true" signature="12824:12909" placeholder="INSERT INTO editorial..." />
+            <marker date="1450302509965" expanded="true" signature="12824:13064" placeholder="INSERT INTO editorial..." />
+            <marker date="1450302509965" expanded="true" signature="13237:13284" placeholder="INSERT INTO genero..." />
+            <marker date="1450302509965" expanded="true" signature="13237:13331" placeholder="INSERT INTO genero..." />
+            <marker date="1450302509965" expanded="true" signature="13237:13332" placeholder="INSERT INTO genero..." />
+            <marker date="1450302509965" expanded="true" signature="15212:15253" placeholder="SELECT picur..libro..." />
+            <marker date="1450302509965" expanded="true" signature="15212:15254" placeholder="SELECT picur..libro..." />
+            <marker date="1450302509965" expanded="true" signature="15432:15466" placeholder="DELETE FROM ..." />
+            <marker date="1450302509965" expanded="true" signature="15625:15667" placeholder="SELECT picur..autor..." />
+            <marker date="1450302509965" expanded="true" signature="15852:15886" placeholder="DELETE FROM ..." />
+            <marker date="1450302509965" expanded="true" signature="16036:16078" placeholder="DELETE FROM ..." />
+            <marker date="1450302509965" expanded="true" signature="16224:16260" placeholder="DELETE FROM ..." />
+            <marker date="1450302509965" expanded="true" signature="16407:16441" placeholder="DELETE FROM ..." />
+            <marker date="1450302509965" expanded="true" signature="16407:16443" placeholder="DELETE FROM ..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/management/genres.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="84" selection-start-line="2" selection-start-column="84" selection-end-line="2" selection-end-column="84" />
+          <folding>
+            <marker date="1450284907618" expanded="true" signature="505:891" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbroutine:/be19703a/d2ab274b-2460-4ef9-80e1-0bc115abb6b5/libros.insertLibro">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3812057">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d2ab274b-2460-4ef9-80e1-0bc115abb6b5/console_11.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="246" column="21" selection-start-line="246" selection-start-column="21" selection-end-line="246" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6923077">
+          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/dbconn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.3461537">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36619717">
+          <caret line="101" column="48" selection-start-line="101" selection-start-column="45" selection-end-line="101" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
