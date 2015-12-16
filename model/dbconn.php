@@ -47,6 +47,13 @@ class DatabaseConnection {
         return $result;
     }
 
+    function fetchRow($sentence){
+        $this->openConn();
+        $result = $this->conn->query($sentence)->fetch(PDO::FETCH_ASSOC);
+        $this->closeConn();
+        return $result;
+    }
+
     function singleton($sentence){
         $res = $this->openConn()->query($sentence)->fetchColumn(0);
         $this->closeConn();

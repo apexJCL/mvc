@@ -66,9 +66,15 @@ class IndexController {
 
     public function showEditScreen(){
         $this->loadTemplate();
-        ChromePhp::log('Template done!');
         $controller = new EditController();
         $controller->showEditScreen();
+    }
+
+
+    public function updateManager(){
+        $this->loadTemplate();
+        $controller = new EditController();
+        $controller->update();
     }
 
     public function showProfile(){
@@ -117,11 +123,6 @@ class IndexController {
         $controller = new RegisterController();
         $this->loadTemplate();
         $controller->showRegisterScreen($result);
-    }
-
-
-    public function updateManager(){
-
     }
 
     public function logout(){

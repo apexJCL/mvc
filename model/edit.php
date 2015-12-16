@@ -11,7 +11,7 @@ class Edit{
      */
     function retrieveData(){
         $conn = new DatabaseConnection();
-        return $conn->query('SELECT * FROM booksData WHERE id_libro = '.$_GET['bid']);
+        return $conn->fetchRow('SELECT * FROM booksData WHERE id_libro = '.$_GET['bid']);
     }
 
 

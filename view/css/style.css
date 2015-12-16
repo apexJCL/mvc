@@ -440,7 +440,17 @@ div#data {
 div#showdata {
     background-color: #025E73;
     height:100%;
+    display: block;
+}
+
+div#showdata table#data td div#bio {
+    max-height: 60px;
     overflow: auto;
+}
+
+div#showdata span#addbutton img {
+    padding: 5px 5px 5px 5px;
+    float: right;
 }
 
 div#showdata table#data {
@@ -451,19 +461,28 @@ div#showdata table#data {
 }
 
 div#showdata table#data th {
+    padding: 2px 5px 5px 5px;
     background-color: rgba(128, 128, 128, 0.6);
     border: 1px solid white;
 }
 
 div#showdata table#data td {
+    font-size: 10pt;
     border: 1px solid rgba(128, 128, 128, 0.5);
     padding: 5px 5px 5px 5px;
     color: white;
-    text-align: center;
+    height: 10px;
+    overflow: hidden;
+    max-width: 400px;
+}
+
+div#showdata table#data img#smallcover {
+    max-width: 34px;
 }
 
 div#showdata table#data td img {
-    max-width: 48px;
+    max-width: 24px;
+    margin: 2px 2px 2px 2px;
 }
 
 div#management {

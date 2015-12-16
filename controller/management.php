@@ -7,19 +7,26 @@ class ManagementController {
     public function showManagement(){
         $controller = new Management();
         switch($_GET['type']){
-            case 'autors':
+            case 'authors':
+                $rows = $controller->getAutorsData();
+                include 'view/management/authors.php';
                 break;
             case 'books':
                 $rows = $controller->getBooksData();
-                include 'view/libro/search_menu.php';
                 include 'view/management/books.php';
+                break;
+            case 'editorials':
+                $rows = $controller->getEditorialsData();
+                include 'view/management/editorials.php';
+                break;
+            case 'genres':
+                $rows = $controller->getGenres();
+                include 'view/management/genres.php';
+                break;
+            case 'readers':
+                $rows = $controller->getUsers();
+                include 'view/management/users.php';
                 break;
         }
     }
-
-    public function update(){
-        $controller =  new Management();
-        $controller->update();
-    }
-
 }

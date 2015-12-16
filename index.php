@@ -36,6 +36,8 @@ if(isset($_GET['action'])){
         case 'check':
             $index->checkLogin();
             break;
+        case 'delete':
+            break;
         case 'edit':
             if($_SESSION['user_type'] == 1){
                 $index->showEditScreen();
