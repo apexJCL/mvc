@@ -65,7 +65,7 @@ class Management {
 
     public function getStatistics() {
         $conn = new DatabaseConnection();
-        return $conn->query();
+        return $conn->query('CALL estadistica()');
     }
 
     public function update() {

@@ -17,8 +17,6 @@ require_once 'controller/index.php'; // Load the controller
 $index = new IndexController(); // Instantiate Index Controller
 if(isset($_GET['action'])){
     switch($_GET['action']){
-        case '':
-            break;
         case 'books':
             $index->showBooks();
             break;

@@ -2,26 +2,13 @@
     <div id="title">Estadísticas Generales</div>
     <div id="data">
         <span id="data">
-            Estadísticas del <?php echo $data['fecha'];?>
+            Visitas a la página: <?php echo $data[0]['visitas'] ?>
         </span>
         <span id="data">
-            Visitas a la página: <?php echo $data['visitas'] ?>
+            Nuevos usuarios: <?php echo $data[0]['usuarios_nuevos'];?>
         </span>
         <span id="data">
-            Nuevos usuarios: <?php echo $data['usuarios_nuevos'];?>
+            Comentarios nuevos: <?php echo $data[0]['comentarios_nuevos'];?>
         </span>
-        <span id="data">
-            Comentarios nuevos: <?php echo $data['comentarios_nuevs'];?>
-        </span>
-    </div>
-    <div id="selector">
-        <span id="title">Cambiar dia</span>
-        <select name="fecha" id="changeday" class="nicedropdown">
-            <?php
-            foreach($available as $day){
-                echo '<option value="'.$day['id'].'">'.$day['fecha'].'</option>';
-            }
-            ?>
-        </select>
     </div>
 </div>

@@ -5,6 +5,7 @@ require_once 'controller/login.php';
 require_once 'controller/search.php';
 require_once 'controller/book.php';
 require_once 'controller/comments.php';
+require_once 'ChromePhp.php';
 
 if(!isset($_SESSION['username']))
     require_once 'controller/register.php';
@@ -20,6 +21,9 @@ class IndexController {
 
     function showStart(){
         $this->loadTemplate();
+        $controller = new DatabaseConnection();
+        $controller->raw('CALL registraVisita()');
+        $controller=null;
         include 'view/welcome.php';
     }
 
