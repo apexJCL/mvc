@@ -115,7 +115,6 @@ class Management {
                     move_uploaded_file($_FILES['picture']['tmp_name'], $filename);
                     $sentence = 'CALL updateAutor(' .  $_SESSION['id_autor'] . ',' . $conn->quote($_POST['nombre_autor']) . ',' . $conn->quote($_POST['pais_autor']) . ',' . $conn->quote($_POST['seudonimo']) . ',' . $conn->quote($_POST['biografia']) . ',' .  $conn->quote($filename) . ')';
                 }
-                ChromePhp::log($sentence);
                 $conn->query($sentence);
                 break;
             case 'editorial':

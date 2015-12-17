@@ -17,9 +17,9 @@
       <table id="8" parent="1" name="comentario"/>
       <table id="9" parent="1" name="tipousuario"/>
       <table id="10" parent="1" name="estadisticas"/>
-      <table id="11" parent="1" name="booksData"/>
-      <table id="12" parent="1" name="datosAutor"/>
-      <table id="13" parent="1" name="editorial"/>
+      <table id="11" parent="1" name="datosAutor"/>
+      <table id="12" parent="1" name="editorial"/>
+      <view id="13" parent="1" name="booksData"/>
       <routine id="14" parent="1" name="nombreLector">
         <routine-kind>PROCEDURE</routine-kind>
       </routine>
@@ -343,89 +343,98 @@ id_lector</columns>
         <columns>id</columns>
         <primary>1</primary>
       </key>
-      <column id="101" parent="11" name="id_libro">
+      <column id="101" parent="11" name="id_autor">
         <data-type>int(11)</data-type>
       </column>
-      <column id="102" parent="11" name="titulo">
-        <data-type>varchar(50)</data-type>
-      </column>
-      <column id="103" parent="11" name="id_autor">
-        <data-type>int(11)</data-type>
-      </column>
-      <column id="104" parent="11" name="nombre_autor">
+      <column id="102" parent="11" name="nombre_autor">
         <data-type>varchar(200)</data-type>
       </column>
-      <column id="105" parent="11" name="id_editorial">
-        <data-type>int(11)</data-type>
-      </column>
-      <column id="106" parent="11" name="nombre_editorial">
-        <data-type>varchar(200)</data-type>
-      </column>
-      <column id="107" parent="11" name="id_genero">
-        <data-type>int(11)</data-type>
-      </column>
-      <column id="108" parent="11" name="descripcion_genero">
+      <column id="103" parent="11" name="pais_autor">
         <data-type>varchar(50)</data-type>
       </column>
-      <column id="109" parent="11" name="fecha_publicacion">
-        <data-type>date</data-type>
+      <column id="104" parent="11" name="seudonimo">
+        <data-type>varchar(50)</data-type>
       </column>
-      <column id="110" parent="11" name="resumen">
+      <column id="105" parent="11" name="biografia">
         <data-type>varchar(1000)</data-type>
       </column>
-      <column id="111" parent="11" name="picurl">
+      <column id="106" parent="11" name="picurl">
         <data-type>varchar(300)</data-type>
       </column>
-      <column id="112" parent="12" name="id_autor">
+      <column id="107" parent="11" name="id_libro">
         <data-type>int(11)</data-type>
       </column>
-      <column id="113" parent="12" name="nombre_autor">
-        <data-type>varchar(200)</data-type>
+      <column id="108" parent="11" name="id_genero">
+        <data-type>int(11)</data-type>
       </column>
-      <column id="114" parent="12" name="pais_autor">
+      <column id="109" parent="11" name="id_editorial">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="110" parent="11" name="titulo">
         <data-type>varchar(50)</data-type>
       </column>
-      <column id="115" parent="12" name="seudonimo">
-        <data-type>varchar(50)</data-type>
-      </column>
-      <column id="116" parent="12" name="biografia">
-        <data-type>varchar(1000)</data-type>
-      </column>
-      <column id="117" parent="12" name="picurl">
-        <data-type>varchar(300)</data-type>
-      </column>
-      <column id="118" parent="12" name="id_libro">
-        <data-type>int(11)</data-type>
-      </column>
-      <column id="119" parent="12" name="id_genero">
-        <data-type>int(11)</data-type>
-      </column>
-      <column id="120" parent="12" name="id_editorial">
-        <data-type>int(11)</data-type>
-      </column>
-      <column id="121" parent="12" name="titulo">
-        <data-type>varchar(50)</data-type>
-      </column>
-      <column id="122" parent="13" name="id_editorial">
+      <column id="111" parent="12" name="id_editorial">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="123" parent="13" name="nombre_editorial">
+      <column id="112" parent="12" name="nombre_editorial">
         <data-type>varchar(200)</data-type>
       </column>
-      <column id="124" parent="13" name="pais_editorial">
+      <column id="113" parent="12" name="pais_editorial">
         <data-type>varchar(50)</data-type>
       </column>
-      <column id="125" parent="13" name="fundador">
+      <column id="114" parent="12" name="fundador">
         <data-type>varchar(50)</data-type>
       </column>
-      <column id="126" parent="13" name="fundacion">
+      <column id="115" parent="12" name="fundacion">
         <data-type>int(4)</data-type>
       </column>
-      <key id="127" parent="13" name="PRIMARY">
+      <key id="116" parent="12" name="PRIMARY">
         <columns>id_editorial</columns>
         <primary>1</primary>
       </key>
+      <column id="117" parent="13" name="id_libro">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="118" parent="13" name="titulo">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="119" parent="13" name="id_autor">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="120" parent="13" name="nombre_autor">
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="121" parent="13" name="id_editorial">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="122" parent="13" name="nombre_editorial">
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="123" parent="13" name="id_genero">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="124" parent="13" name="descripcion_genero">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="125" parent="13" name="fecha_publicacion">
+        <data-type>date</data-type>
+      </column>
+      <column id="126" parent="13" name="resumen">
+        <data-type>varchar(1000)</data-type>
+      </column>
+      <column id="127" parent="13" name="picurl">
+        <data-type>varchar(300)</data-type>
+        <default-expression>&apos;view/img/icon-default-book.png&apos;</default-expression>
+      </column>
       <argument id="128" parent="14" name="mail">
         <direction>IN</direction>
         <data-type>varchar(50)</data-type>
