@@ -17,7 +17,6 @@ class Autores{
 
     public function getAutorBooks($autor_id){
         $conn = new DatabaseConnection();
-        ChromePhp::log("Sentence: ".'CALL librosAutor('.$autor_id.')');
         return $conn->query('CALL librosAutor('.$autor_id.')');
     }
 

@@ -11,7 +11,6 @@ if(!isset($_SESSION['username']))
 else{
     require_once 'controller/profile.php';
     if($_SESSION['user_type'] == 1) {
-        require_once 'controller/statistics.php';
         require_once 'controller/edit.php';
         require_once 'controller/management.php';
     }
@@ -32,12 +31,6 @@ class IndexController {
         $this->loadTemplate();
         $controller = new AutorController();
         $controller->show();
-    }
-
-    function showStatistics(){
-        $this->loadTemplate();
-        $controller = new StatisticsController();
-        $controller->showStatistics();
     }
 
     public function showBooks(){

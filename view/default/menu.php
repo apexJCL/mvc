@@ -9,7 +9,7 @@
 
         if (isset($_SESSION['user_type'])) {
             if ($_SESSION['user_type'] == 1) {
-                echo '<li><a href="index.php?action=statistics">Estadísticas</a></li>';
+                echo '<li><a href="index.php?action=manage&type=statistics">Estadísticas</a></li>';
                 echo '<li><a  href="#">Administrar</a>
                             <ul>
                                 <li class="submenu"><a href="index.php?action=manage&type=authors">Autores</a></li>

@@ -27,6 +27,10 @@ class ManagementController {
                 $rows = $controller->getUsers();
                 include 'view/management/users.php';
                 break;
+            case 'statistics':
+                $data = $controller->getStatistics();
+                include 'view/management/statistics.php';
+                break;
         }
     }
 }

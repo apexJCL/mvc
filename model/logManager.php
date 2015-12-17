@@ -22,7 +22,6 @@ class LogManager {
 
     function logout(){
         $conn = new DatabaseConnection();
-        ChromePhp::log('SELECT logout('.$conn->quote($_SESSION['mail']).')');
         $conn->singleton('SELECT logout('.$conn->quote($_SESSION['mail']).')');
     }
 

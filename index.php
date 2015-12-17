@@ -13,13 +13,8 @@ session_start();
 <body>
 
 <?php
-
-include 'ChromePhp.php';
-
 require_once 'controller/index.php'; // Load the controller
-
 $index = new IndexController(); // Instantiate Index Controller
-
 if(isset($_GET['action'])){
     switch($_GET['action']){
         case '':
@@ -67,9 +62,6 @@ if(isset($_GET['action'])){
             break;
         case 'showbook':
             $index->showBook();
-            break;
-        case 'statistics':
-            $index->showStatistics();
             break;
         case 'profile':
             $index->showProfile();

@@ -62,6 +62,12 @@ class Management {
         return $conn->query('SELECT * FROM genero WHERE id_genero ='.$gid);
     }
 
+
+    public function getStatistics() {
+        $conn = new DatabaseConnection();
+        return $conn->query();
+    }
+
     public function update() {
         $conn = new DatabaseConnection();
         switch($_GET['type']){
