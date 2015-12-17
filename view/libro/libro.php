@@ -6,7 +6,8 @@
     </div>
     <div id="information">
         <?php
-        echo '<span id="title">'.$data[0]['titulo'].'</span>';
+        echo '<span id="title">'.$data[0]['titulo'].'</span>
+                <input type="submit" value="Imprime esta página" class="nicebutton" onclick="window.print()">';
         echo '<span id="autor"><a href="index.php?autor='.$data[0]['id_autor'].'" id="">'.$data[0]['nombre_autor'].'</a></span>';
         echo '<span id="date">'.$data[0]['fecha_publicacion'].'</span>';
         echo '<hr><span id="titler">Resumen</span>';
