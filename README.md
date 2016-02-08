@@ -1,4 +1,4 @@
-#Proyecto MVC
+# MVC Project
 
 Basically a MVC project that someone asked me to do it.
 
